@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="personal_detail_approval" label="Personal Detail Approval" language="en" table="x_1107692_banking_accountant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>personal_detail_approval</element>
+            <help/>
+            <hint/>
+            <label>Personal Detail Approval</label>
+            <language>en</language>
+            <name>x_1107692_banking_accountant</name>
+            <plural>Personal Detail Approvals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 09:37:46</sys_created_on>
+            <sys_id>f83b0774835c12502740f496feaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Personal Detail Approval</sys_name>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_documentation_x_1107692_banking_accountant_personal_detail_approval_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 09:37:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
