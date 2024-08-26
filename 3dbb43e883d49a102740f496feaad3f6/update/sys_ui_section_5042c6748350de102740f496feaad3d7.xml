@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Government Proofs" section_id="5042c6748350de102740f496feaad3d7" sys_domain="global" table="x_1107692_banking_accountant" version="3" view="Manager_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pan_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_id>1442c6748350de102740f496feaad3d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="2d49ab688314da102740f496feaad330">5042c6748350de102740f496feaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aadhar_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_id>9842c6748350de102740f496feaad3d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="2d49ab688314da102740f496feaad330">5042c6748350de102740f496feaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_id>5c42c6748350de102740f496feaad3d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="2d49ab688314da102740f496feaad330">5042c6748350de102740f496feaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passport</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_id>1042c6748350de102740f496feaad3da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="2d49ab688314da102740f496feaad330">5042c6748350de102740f496feaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criminal_case</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_id>d442c6748350de102740f496feaad3d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="2d49ab688314da102740f496feaad330">5042c6748350de102740f496feaad3d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Government Proofs</caption>
+            <header>false</header>
+            <name>x_1107692_banking_accountant</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 04:19:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5042c6748350de102740f496feaad3d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_accountant</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_section_5042c6748350de102740f496feaad3d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 04:19:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager View" name="Manager_View">2d49ab688314da102740f496feaad330</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

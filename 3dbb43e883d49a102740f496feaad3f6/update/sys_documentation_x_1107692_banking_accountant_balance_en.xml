@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="balance" label="Balance" language="en" table="x_1107692_banking_accountant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>balance</element>
+            <help/>
+            <hint/>
+            <label>Balance</label>
+            <language>en</language>
+            <name>x_1107692_banking_accountant</name>
+            <plural>Balances</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 03:45:09</sys_created_on>
+            <sys_id>6b7abdbc839c9e102740f496feaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Balance</sys_name>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_documentation_x_1107692_banking_accountant_balance_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 03:45:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
