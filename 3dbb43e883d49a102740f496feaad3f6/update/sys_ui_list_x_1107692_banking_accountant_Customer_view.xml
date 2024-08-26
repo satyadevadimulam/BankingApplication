@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1107692_banking_accountant" version="2" view="Customer_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>42765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customerid</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>c2765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>salutation</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>46765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dob</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>c6765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gender</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>4a765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>age</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>ca765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>4e765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>aadhar_number</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>ce765730839052502740f496feaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_approval</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>82765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_account_status</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>06765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_type</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>86765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>balance</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>0a765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>accountid</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>8a765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>govt_details_approval</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>0e765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>pan_number</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>8e765730839052502740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>passport</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>02765730839052502740f496feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>personal_detail_approval</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>c2765730839052502740f496feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>personal_verification</element>
+            <list_id display_value="x_1107692_banking_accountant" element="NULL" name="x_1107692_banking_accountant" parent="NULL" relationship="NULL" sys_domain="global" view="87ec7c5c839812102740f496feaad334">86765730839052502740f496feaad392</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_id>46765730839052502740f496feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1107692_banking_accountant</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:27:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86765730839052502740f496feaad392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_accountant</sys_name>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_list_x_1107692_banking_accountant_Customer_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:27:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Customer view" name="Customer_view">87ec7c5c839812102740f496feaad334</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
