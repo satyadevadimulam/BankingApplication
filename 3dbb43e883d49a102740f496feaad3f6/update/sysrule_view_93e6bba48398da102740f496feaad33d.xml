@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Customer View rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+    // Add your code here
+    answer = null; // set the new view to answer
+
+    var currentUserID = gs.getUserID();
+
+    var userRoles = new GlideRecord('sys_user_has_role');
+    userRoles.addQuery('user', currentUserID);
+    userRoles.addQuery('role', '2cee036c83589a102740f496feaad393').addOrCondition('role',"57ce0b2c83589a102740f496feaad3be").addOrCondition('role','7ede0ba883589a102740f496feaad384');
+    userRoles.query();
+    if (userRoles.next()) {
+        if (userRoles.role == "2cee036c83589a102740f496feaad393") {
+            answer = 'Customer_view';
+        } else if (userRoles.role == "57ce0b2c83589a102740f496feaad3be") {
+            answer = 'Manager_View';
+        } else
+            answer = "Accountant_View";
+    }
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-25 18:17:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93e6bba48398da102740f496feaad33d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Customer View rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sysrule_view_93e6bba48398da102740f496feaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 04:38:59</sys_updated_on>
+        <table>x_1107692_banking_customer</table>
+        <view>Customer_view</view>
+    </sysrule_view>
+</record_update>
