@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1107692_banking.customer" name="x_1107692_banking.customer">2cee036c83589a102740f496feaad393</contains>
+        <role display_value="x_1107692_banking.Manager" name="x_1107692_banking.Manager">57ce0b2c83589a102740f496feaad3be</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 12:26:00</sys_created_on>
+        <sys_id>3a4bfcd183d05a502740f496feaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking.customer.x_1107692_banking.Manager</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_user_role_contains_3a4bfcd183d05a502740f496feaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 12:26:00</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
