@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=12411000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>account_verification_for_banking_account</internal_name>
+        <label_cache>[{"name":"subflow.account_record","label":"Input➛Account Record","reference":"x_1107692_banking_accountant","reference_display":"Account","type":"reference","base_type":"reference","usedInstances":{"6b847b96-a5e9-4873-9e23-ca11f6e77fbd":["record"],"55841aee-88e2-4e9c-9696-c62c09469869":["record"],"22c0ec17-ec06-4325-97ad-21e0dc516fec":["record"],"a1124076-67af-4c68-9ef4-aa01299ec724":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"14a8bd95-d99f-4979-9fc6-c5b005d764c9","uiTypeLabel":"Reference"}},{"name":"55841aee-88e2-4e9c-9696-c62c09469869.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"usedInstances":{},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"subflow.account_record.account_verification","label":"Input➛Account Record➛Account Verification","reference":"","reference_display":"Account Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"account_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Draft","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Draft","selected":false,"value":"0","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{}},{"name":"subflow.account_record.personal_verification","label":"Input➛Account Record➛Personal Verification","reference":"","reference_display":"Personal Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"personal_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}},{"name":"subflow.account_record.goverment_verification","label":"Input➛Account Record➛Goverment Verification","reference":"","reference_display":"Goverment Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"goverment_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}},{"name":"subflow.account_record.finance_verification_status","label":"Input➛Account Record➛Finance Verification Status","reference":"","reference_display":"Finance Verification Status","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"finance_verification_status","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}}]</label_cache>
+        <master_snapshot>38d19ee1831852902740f496feaad3e9</master_snapshot>
+        <name>Account Verification For Banking Account</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:29:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4b5062183d052902740f496feaad300</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Account Verification For Banking Account</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_hub_flow_f4b5062183d052902740f496feaad300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:29</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4b5062183d052902740f496feaad300"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f4b5062183d052902740f496feaad300"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f4b5062183d052902740f496feaad300^sys_idNOT INb8b5062183d052902740f496feaad302"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f4b5062183d052902740f496feaad300</id>
+        <name>Account Verification For Banking Account</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:29:34</sys_created_on>
+        <sys_id>b8b5062183d052902740f496feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:29:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b8b5062183d052902740f496feaad302"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f4b5062183d052902740f496feaad300^sys_idNOT IN193c0e25839452902740f496feaad3a3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=14a8bd95-d99f-4979-9fc6-c5b005d764c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1107692_banking_accountant</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>account_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Account Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</model>
+        <model_id>f4b5062183d052902740f496feaad300</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f4b5062183d052902740f496feaad300</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1107692_banking_accountant">x_1107692_banking_accountant</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>193c0e25839452902740f496feaad3a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=193c0e25839452902740f496feaad3a3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f4b5062183d052902740f496feaad300^sys_idNOT IN253c4e25839452902740f496feaad315,693c0e25839452902740f496feaad3e4,e13c4e25839452902740f496feaad32e,ed3c4e25839452902740f496feaad382"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>253c4e25839452902740f496feaad315</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+        <ui_id>55841aee-88e2-4e9c-9696-c62c09469869</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=253c4e25839452902740f496feaad315"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>253c4e25839452902740f496feaad315</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>ad3c4e25839452902740f496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>253c4e25839452902740f496feaad315</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>e93c4e25839452902740f496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <value>personal_verification=3^goverment_verification=3^finance_verification_status=3^NQfinance_verification_status=4^ORgoverment_verification=4^ORpersonal_verification=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=253c4e25839452902740f496feaad315"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>253c4e25839452902740f496feaad315</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>a53c4e25839452902740f496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>253c4e25839452902740f496feaad315</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>e13c4e25839452902740f496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>253c4e25839452902740f496feaad315</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>693c4e25839452902740f496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=253c4e25839452902740f496feaad315"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=253c4e25839452902740f496feaad315"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>693c0e25839452902740f496feaad3e4</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+        <ui_id>6b847b96-a5e9-4873-9e23-ca11f6e77fbd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=693c0e25839452902740f496feaad3e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>693c0e25839452902740f496feaad3e4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>e53c0e25839452902740f496feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>693c0e25839452902740f496feaad3e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>ed3c0e25839452902740f496feaad3e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:10:05</sys_updated_on>
+        <value>account_verification=2^account_approval=Blue</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=693c0e25839452902740f496feaad3e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>693c0e25839452902740f496feaad3e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>6d3c0e25839452902740f496feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>693c0e25839452902740f496feaad3e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>a13c0e25839452902740f496feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>693c0e25839452902740f496feaad3e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>a93c0e25839452902740f496feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=693c0e25839452902740f496feaad3e4^sys_idNOT IN253c0e25839452902740f496feaad3e6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>693c0e25839452902740f496feaad3e4</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"accountid":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn gs.generateGUID();","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>253c0e25839452902740f496feaad3e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:10:05</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=693c0e25839452902740f496feaad3e4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5a3746f1-3523-4767-9428-b153a2a16ff6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>e13c4e25839452902740f496feaad32e</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+        <ui_id>22c0ec17-ec06-4325-97ad-21e0dc516fec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e13c4e25839452902740f496feaad32e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e13c4e25839452902740f496feaad32e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>2d3c4e25839452902740f496feaad32f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:40:20</sys_updated_on>
+        <value>account_approval=Green^u_account_status=operational^active=true^account_verification=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e13c4e25839452902740f496feaad32e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>ed3c4e25839452902740f496feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e13c4e25839452902740f496feaad32e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e13c4e25839452902740f496feaad32e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>a93c4e25839452902740f496feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e13c4e25839452902740f496feaad32e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>253c4e25839452902740f496feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e13c4e25839452902740f496feaad32e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>e53c4e25839452902740f496feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e13c4e25839452902740f496feaad32e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e13c4e25839452902740f496feaad32e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>de831d2f-0272-48aa-a807-0892ccede4e3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>ed3c4e25839452902740f496feaad382</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:29</sys_updated_on>
+        <ui_id>a1124076-67af-4c68-9ef4-aa01299ec724</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed3c4e25839452902740f496feaad382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed3c4e25839452902740f496feaad382</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>6d3c4e25839452902740f496feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed3c4e25839452902740f496feaad382</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>a93c4e25839452902740f496feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <value>account_approval=Red^account_verification=4^personal_verification=1^goverment_verification=1^finance_verification_status=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed3c4e25839452902740f496feaad382"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ed3c4e25839452902740f496feaad382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>293c4e25839452902740f496feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ed3c4e25839452902740f496feaad382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>a13c4e25839452902740f496feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ed3c4e25839452902740f496feaad382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>653c4e25839452902740f496feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed3c4e25839452902740f496feaad382"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed3c4e25839452902740f496feaad382"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f4b5062183d052902740f496feaad300^sys_idNOT INa13c4e25839452902740f496feaad331,b8057e65835492902740f496feaad380,ed3c4e25839452902740f496feaad319"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e13c4e25839452902740f496feaad330</block>
+        <comment/>
+        <connected_to>5a3746f1-3523-4767-9428-b153a2a16ff6</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>a13c4e25839452902740f496feaad331</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:29</sys_updated_on>
+        <ui_id>de831d2f-0272-48aa-a807-0892ccede4e3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a13c4e25839452902740f496feaad331"/>
+    <sys_element_mapping action="delete_multiple" query="id=a13c4e25839452902740f496feaad331"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a13c4e25839452902740f496feaad331</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:01</sys_created_on>
+        <sys_id>ad3c4e25839452902740f496feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:01</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.account_record.personal_verification}}=4^NQ{{subflow.account_record.goverment_verification}}=4^NQ{{subflow.account_record.finance_verification_status}}=4</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a13c4e25839452902740f496feaad331"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a13c4e25839452902740f496feaad331"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bc057e65835492902740f496feaad37f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:16</sys_created_on>
+        <sys_id>b8057e65835492902740f496feaad380</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+        <ui_id>7b0386be-b4d3-4c9a-96c9-9664f6b4902d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b8057e65835492902740f496feaad380"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8057e65835492902740f496feaad380</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:16</sys_created_on>
+        <sys_id>f4057e65835492902740f496feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:16</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b8057e65835492902740f496feaad380</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:16</sys_created_on>
+        <sys_id>fc057e65835492902740f496feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=b8057e65835492902740f496feaad380"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b8057e65835492902740f496feaad380"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8057e65835492902740f496feaad380"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">253c4e25839452902740f496feaad318</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>ed3c4e25839452902740f496feaad319</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+        <ui_id>5a3746f1-3523-4767-9428-b153a2a16ff6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ed3c4e25839452902740f496feaad319"/>
+    <sys_element_mapping action="delete_multiple" query="id=ed3c4e25839452902740f496feaad319"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ed3c4e25839452902740f496feaad319</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>653c4e25839452902740f496feaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.account_record.personal_verification}}=3^{{subflow.account_record.goverment_verification}}=3^{{subflow.account_record.finance_verification_status}}=3</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ed3c4e25839452902740f496feaad319"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed3c4e25839452902740f496feaad319"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f4b5062183d052902740f496feaad300"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f4b5062183d052902740f496feaad300"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4b5062183d052902740f496feaad300^sys_idNOT IN153c0e25839452902740f496feaad3a9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>account_record</element>
+        <help/>
+        <hint/>
+        <label>Account Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f4b5062183d052902740f496feaad300</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:58:00</sys_created_on>
+        <sys_id>153c0e25839452902740f496feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 12:58:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4b5062183d052902740f496feaad300"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4b5062183d052902740f496feaad300"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4b5062183d052902740f496feaad300"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>account_verification_for_banking_account</internal_name>
+        <label_cache>[{"name":"subflow.account_record","label":"Input➛Account Record","reference":"x_1107692_banking_accountant","reference_display":"Account","type":"reference","base_type":"reference","usedInstances":{"6b847b96-a5e9-4873-9e23-ca11f6e77fbd":["record"],"55841aee-88e2-4e9c-9696-c62c09469869":["record"],"22c0ec17-ec06-4325-97ad-21e0dc516fec":["record"],"a1124076-67af-4c68-9ef4-aa01299ec724":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"14a8bd95-d99f-4979-9fc6-c5b005d764c9","uiTypeLabel":"Reference"}},{"name":"55841aee-88e2-4e9c-9696-c62c09469869.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"usedInstances":{},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"subflow.account_record.account_verification","label":"Input➛Account Record➛Account Verification","reference":"","reference_display":"Account Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"account_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Draft","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Draft","selected":false,"value":"0","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{}},{"name":"subflow.account_record.personal_verification","label":"Input➛Account Record➛Personal Verification","reference":"","reference_display":"Personal Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"personal_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}},{"name":"subflow.account_record.goverment_verification","label":"Input➛Account Record➛Goverment Verification","reference":"","reference_display":"Goverment Verification","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"goverment_verification","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}},{"name":"subflow.account_record.finance_verification_status","label":"Input➛Account Record➛Finance Verification Status","reference":"","reference_display":"Finance Verification Status","type":"choice","base_type":"choice","parent_table_name":"x_1107692_banking_accountant","column_name":"finance_verification_status","choices":[{"label":"-- None --","image":"","used":false,"missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Cancelled","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Cancelled","selected":false,"value":"4","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Completed","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Completed","selected":false,"value":"3","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"New","image":"","used":false,"missing":false,"reference":false,"rawLabel":"New","selected":false,"value":"1","parameters":{"name":"x_1107692_banking_accountant"}},{"label":"Work in Progress","image":"","used":false,"missing":false,"reference":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1107692_banking_accountant"}}],"usedInstances":{"5a3746f1-3523-4767-9428-b153a2a16ff6":["condition"],"de831d2f-0272-48aa-a807-0892ccede4e3":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>Account Verification For Banking Account</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38d19ee1831852902740f496feaad3e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=38d19ee1831852902740f496feaad3e9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=38d19ee1831852902740f496feaad3e9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=38d19ee1831852902740f496feaad3e9^sys_idNOT IN74d19ee1831852902740f496feaad3eb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>38d19ee1831852902740f496feaad3e9</id>
+        <name>Account Verification For Banking Account</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:32</sys_created_on>
+        <sys_id>74d19ee1831852902740f496feaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=74d19ee1831852902740f496feaad3eb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=38d19ee1831852902740f496feaad3e9^sys_idNOT INb8d19ee1831852902740f496feaad3ec"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=14a8bd95-d99f-4979-9fc6-c5b005d764c9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1107692_banking_accountant</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>account_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Account Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</model>
+        <model_id>38d19ee1831852902740f496feaad3e9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_38d19ee1831852902740f496feaad3e9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1107692_banking_accountant">x_1107692_banking_accountant</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:32</sys_created_on>
+        <sys_id>b8d19ee1831852902740f496feaad3ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8d19ee1831852902740f496feaad3ec"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=38d19ee1831852902740f496feaad3e9^sys_idNOT IN4dd11225831852902740f496feaad30a,85d1dee1831852902740f496feaad3ba,85d1dee1831852902740f496feaad3f7,c1d11225831852902740f496feaad311"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5a3746f1-3523-4767-9428-b153a2a16ff6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>4dd11225831852902740f496feaad30a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>22c0ec17-ec06-4325-97ad-21e0dc516fec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4dd11225831852902740f496feaad30a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4dd11225831852902740f496feaad30a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>89d11225831852902740f496feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4dd11225831852902740f496feaad30a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c5d11225831852902740f496feaad30c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:40:30</sys_updated_on>
+        <value>account_approval=Green^u_account_status=operational^active=true^account_verification=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4dd11225831852902740f496feaad30a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4dd11225831852902740f496feaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>45d11225831852902740f496feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4dd11225831852902740f496feaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>cdd11225831852902740f496feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4dd11225831852902740f496feaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>81d11225831852902740f496feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4dd11225831852902740f496feaad30a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4dd11225831852902740f496feaad30a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>85d1dee1831852902740f496feaad3ba</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>6b847b96-a5e9-4873-9e23-ca11f6e77fbd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=85d1dee1831852902740f496feaad3ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85d1dee1831852902740f496feaad3ba</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>81d1dee1831852902740f496feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85d1dee1831852902740f496feaad3ba</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c9d1dee1831852902740f496feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>account_verification=2^account_approval=Blue</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=85d1dee1831852902740f496feaad3ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>85d1dee1831852902740f496feaad3ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>49d1dee1831852902740f496feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>85d1dee1831852902740f496feaad3ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>81d1dee1831852902740f496feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>85d1dee1831852902740f496feaad3ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>45d1dee1831852902740f496feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=85d1dee1831852902740f496feaad3ba^sys_idNOT IN85d1dee1831852902740f496feaad3ed"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>85d1dee1831852902740f496feaad3ba</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"accountid":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn gs.generateGUID();","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>85d1dee1831852902740f496feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=85d1dee1831852902740f496feaad3ba"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>85d1dee1831852902740f496feaad3f7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>55841aee-88e2-4e9c-9696-c62c09469869</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=85d1dee1831852902740f496feaad3f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85d1dee1831852902740f496feaad3f7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>49d1dee1831852902740f496feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>personal_verification=3^goverment_verification=3^finance_verification_status=3^NQfinance_verification_status=4^ORgoverment_verification=4^ORpersonal_verification=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>85d1dee1831852902740f496feaad3f7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c1d11225831852902740f496feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=85d1dee1831852902740f496feaad3f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>85d1dee1831852902740f496feaad3f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>05d1dee1831852902740f496feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>85d1dee1831852902740f496feaad3f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>41d1dee1831852902740f496feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>85d1dee1831852902740f496feaad3f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c5d1dee1831852902740f496feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=85d1dee1831852902740f496feaad3f7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=85d1dee1831852902740f496feaad3f7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>de831d2f-0272-48aa-a807-0892ccede4e3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c1d11225831852902740f496feaad311</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>a1124076-67af-4c68-9ef4-aa01299ec724</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c1d11225831852902740f496feaad311"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c1d11225831852902740f496feaad311</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>8dd11225831852902740f496feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>x_1107692_banking_accountant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c1d11225831852902740f496feaad311</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c9d11225831852902740f496feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <value>account_approval=Red^account_verification=4^personal_verification=1^goverment_verification=1^finance_verification_status=1</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c1d11225831852902740f496feaad311"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c1d11225831852902740f496feaad311</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>49d11225831852902740f496feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.account_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c1d11225831852902740f496feaad311</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>45d11225831852902740f496feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c1d11225831852902740f496feaad311</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>85d11225831852902740f496feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1d11225831852902740f496feaad311"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c1d11225831852902740f496feaad311"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=38d19ee1831852902740f496feaad3e9^sys_idNOT INc5d1dee1831852902740f496feaad386,c9d1dee1831852902740f496feaad3b0,db05fe65835492902740f496feaad3d3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">253c4e25839452902740f496feaad318</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c5d1dee1831852902740f496feaad386</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>5a3746f1-3523-4767-9428-b153a2a16ff6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d1dee1831852902740f496feaad386"/>
+    <sys_element_mapping action="delete_multiple" query="id=c5d1dee1831852902740f496feaad386"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c5d1dee1831852902740f496feaad386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>81d1dee1831852902740f496feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.account_record.personal_verification}}=3^{{subflow.account_record.goverment_verification}}=3^{{subflow.account_record.finance_verification_status}}=3</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c5d1dee1831852902740f496feaad386"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c5d1dee1831852902740f496feaad386"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e13c4e25839452902740f496feaad330</block>
+        <comment/>
+        <connected_to>5a3746f1-3523-4767-9428-b153a2a16ff6</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>c9d1dee1831852902740f496feaad3b0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>de831d2f-0272-48aa-a807-0892ccede4e3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c9d1dee1831852902740f496feaad3b0"/>
+    <sys_element_mapping action="delete_multiple" query="id=c9d1dee1831852902740f496feaad3b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c9d1dee1831852902740f496feaad3b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>4dd1dee1831852902740f496feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.account_record.personal_verification}}=4^NQ{{subflow.account_record.goverment_verification}}=4^NQ{{subflow.account_record.finance_verification_status}}=4</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c9d1dee1831852902740f496feaad3b0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c9d1dee1831852902740f496feaad3b0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bc057e65835492902740f496feaad37f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Account Verification For Banking Account">38d19ee1831852902740f496feaad3e9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:26</sys_created_on>
+        <sys_id>db05fe65835492902740f496feaad3d3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:27</sys_updated_on>
+        <ui_id>7b0386be-b4d3-4c9a-96c9-9664f6b4902d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=db05fe65835492902740f496feaad3d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>db05fe65835492902740f496feaad3d3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:26</sys_created_on>
+        <sys_id>5b05fe65835492902740f496feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:26</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>db05fe65835492902740f496feaad3d3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 15:56:26</sys_created_on>
+        <sys_id>9705fe65835492902740f496feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:26</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=db05fe65835492902740f496feaad3d3"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=db05fe65835492902740f496feaad3d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=db05fe65835492902740f496feaad3d3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=38d19ee1831852902740f496feaad3e9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_38d19ee1831852902740f496feaad3e9^sys_idNOT INcdd1dee1831852902740f496feaad37e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>account_record</element>
+        <help/>
+        <hint/>
+        <label>Account Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_38d19ee1831852902740f496feaad3e9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:33</sys_created_on>
+        <sys_id>cdd1dee1831852902740f496feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 13:22:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_38d19ee1831852902740f496feaad3e9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_38d19ee1831852902740f496feaad3e9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_38d19ee1831852902740f496feaad3e9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>f4b5062183d052902740f496feaad300</sys_id>
+        <latest_snapshot>38d19ee1831852902740f496feaad3e9</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f4b5062183d052902740f496feaad300"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f4b5062183d052902740f496feaad300^sys_idNOT IN5dd11225831852902740f496feaad378"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@52c67ab4</plan>
+        <plan_id display_value="Account Verification For Banking Account">f4b5062183d052902740f496feaad300</plan_id>
+        <snapshot>38d19ee1831852902740f496feaad3e9</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 13:22:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5dd11225831852902740f496feaad378</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:56:28</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

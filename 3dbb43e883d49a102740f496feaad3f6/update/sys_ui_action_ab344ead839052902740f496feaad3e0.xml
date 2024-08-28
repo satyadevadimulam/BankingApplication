@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>start_account_verification</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(gs.hasRole('x_1107692_banking.AccountUser') &amp;&amp; (current.account_verification== '1') )</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Start Account Verification</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[	function trigerAccountVerificationflow() {
+
+	    try {
+	        var inputs = {};
+	        inputs['account_record'] = current;
+	        sn_fd.FlowAPI.getRunner().subflow('x_1107692_banking.account_verification_for_banking_account').inBackground().withInputs(inputs).run();
+	    } catch (ex) {
+	        var message = ex.getMessage();
+	        gs.error(message);
+	    }
+	    action.setRedirectURL("/x_1107692_banking_accountant.do?sys_id=" + current.sys_id);
+
+	}
+
+	trigerAccountVerificationflow();]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 12:24:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab344ead839052902740f496feaad3e0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Start Account Verification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_ui_action_ab344ead839052902740f496feaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:52:59</sys_updated_on>
+        <table>x_1107692_banking_accountant</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
