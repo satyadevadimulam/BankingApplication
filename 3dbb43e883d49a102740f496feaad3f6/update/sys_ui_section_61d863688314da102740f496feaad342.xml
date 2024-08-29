@@ -1,100 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Personal Details" section_id="61d863688314da102740f496feaad342" sys_domain="global" table="x_1107692_banking_customer" version="3" view="Customer_view">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>93bf076d839c92902740f496feaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
+            <text>Fill all the mandatory personal details</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dob</element>
+            <element>93bf076d839c92902740f496feaad338</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>81752ead83dc52902740f496feaad32c</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>93bf076d839c92902740f496feaad33e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dob</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>9bbf076d839c92902740f496feaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>89752ead83dc52902740f496feaad32c</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>93bf076d839c92902740f496feaad33f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>passport</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>81752ead83dc52902740f496feaad32d</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>9bbf076d839c92902740f496feaad33f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>09752ead83dc52902740f496feaad346</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>93bf076d839c92902740f496feaad340</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gender</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>01752ead83dc52902740f496feaad347</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>9bbf076d839c92902740f496feaad340</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>salutation</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>09752ead83dc52902740f496feaad347</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>93bf076d839c92902740f496feaad341</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>criminal_case</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 14:48:18</sys_created_on>
-            <sys_id>01752ead83dc52902740f496feaad348</sys_id>
+            <sys_created_on>2024-08-28 17:53:03</sys_created_on>
+            <sys_id>53bf076d839c92902740f496feaad34e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">61d863688314da102740f496feaad342</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 14:48:18</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

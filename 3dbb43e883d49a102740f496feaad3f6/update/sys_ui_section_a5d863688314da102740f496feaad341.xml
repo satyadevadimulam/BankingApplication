@@ -1,100 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="a5d863688314da102740f496feaad341" sys_domain="global" table="x_1107692_banking_customer" version="3" view="Customer_view">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>dbbfc36d839c92902740f496feaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
+            <text>Fill all the mandatory fields</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>test</element>
+            <element>dbbfc36d839c92902740f496feaad3dc</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>5f3d066d839452902740f496feaad310</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>1bbf076d839c92902740f496feaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>13bf076d839c92902740f496feaad32e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_first_name</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>5b3d066d839452902740f496feaad311</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>1bbf076d839c92902740f496feaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_last_name</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>533d066d839452902740f496feaad312</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>13bf076d839c92902740f496feaad32f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>5b3d066d839452902740f496feaad312</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>1bbf076d839c92902740f496feaad32f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customerid</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>533d066d839452902740f496feaad313</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>13bf076d839c92902740f496feaad330</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>5b3d066d839452902740f496feaad313</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>1bbf076d839c92902740f496feaad330</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 13:02:30</sys_created_on>
-            <sys_id>533d066d839452902740f496feaad314</sys_id>
+            <sys_created_on>2024-08-28 17:53:02</sys_created_on>
+            <sys_id>13bf076d839c92902740f496feaad331</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer" sys_domain="global" view="87ec7c5c839812102740f496feaad334">a5d863688314da102740f496feaad341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 13:02:30</sys_updated_on>
+            <sys_updated_on>2024-08-28 17:53:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

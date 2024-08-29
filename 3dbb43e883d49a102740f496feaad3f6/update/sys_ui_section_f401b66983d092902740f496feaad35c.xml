@@ -1,128 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="f401b66983d092902740f496feaad35c" sys_domain="global" table="x_1107692_banking_benefeciary" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>from_account_number</element>
+            <element>from_account_name.salutation</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>4c91f2ad83d092902740f496feaad39f</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>104374bd835056902740f496feaad3ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_account_name.customerid</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>184374bd835056902740f496feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_account_name.test</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>504374bd835056902740f496feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_account_name.customer_first_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>584374bd835056902740f496feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_account_name.customer_last_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>904374bd835056902740f496feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_account_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>984374bd835056902740f496feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>to_account_name</element>
-            <position>1</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>8891f2ad83d092902740f496feaad3a0</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>904374bd835056902740f496feaad3d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>to_bank_ifsc_code</element>
-            <position>2</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>8091f2ad83d092902740f496feaad3a1</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>984374bd835056902740f496feaad3d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>0891f2ad83d092902740f496feaad3ba</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>904374bd835056902740f496feaad3d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>to_account_number</element>
-            <position>4</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>4091f2ad83d092902740f496feaad3bb</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>984374bd835056902740f496feaad3d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type</element>
-            <position>5</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:41:12</sys_created_on>
-            <sys_id>8891f2ad83d092902740f496feaad3bb</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>904374bd835056902740f496feaad3d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:41:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>from_account_name</element>
-            <position>6</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:43:36</sys_created_on>
-            <sys_id>1f127e21831492902740f496feaad3e3</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>984374bd835056902740f496feaad3d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:43:36</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>benefeciary_id</element>
-            <position>7</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:54:12</sys_created_on>
-            <sys_id>5a847a25835492902740f496feaad37a</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>904374bd835056902740f496feaad3d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:54:12</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>benefeciary_name</element>
-            <position>8</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-28 15:55:10</sys_created_on>
-            <sys_id>f4c43625835492902740f496feaad36f</sys_id>
+            <sys_created_on>2024-08-29 01:07:50</sys_created_on>
+            <sys_id>984374bd835056902740f496feaad3d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">f401b66983d092902740f496feaad35c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-28 15:55:10</sys_updated_on>
+            <sys_updated_on>2024-08-29 01:07:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
