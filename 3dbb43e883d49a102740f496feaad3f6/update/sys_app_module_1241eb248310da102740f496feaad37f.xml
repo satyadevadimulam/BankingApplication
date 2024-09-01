@@ -8,14 +8,14 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>Customers</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1107692_banking_customer</name>
         <order>110</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>wizard_view.do?sys_target=create_customer&amp;sysparm_stack=create_customer_list.do&amp;sysparm_wizardAction=sysverb_new&amp;sysparm_parent=6cad223a8354ded02740f496feaad334</query>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_1107692_banking.Manager,x_1107692_banking.accountant</roles>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1241eb248310da102740f496feaad37f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create Customers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name>sys_app_module_1241eb248310da102740f496feaad37f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-25 17:32:47</sys_updated_on>
+        <sys_updated_on>2024-09-01 13:11:10</sys_updated_on>
         <timeline_page/>
         <title>Create Customers</title>
         <uncancelable>false</uncancelable>
