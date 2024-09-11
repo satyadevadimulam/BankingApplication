@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 02:19:06</sys_created_on>
+        <sys_id>c30f33b583e09e502740f496feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking_benefeciary.*.u_state_user</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_security_acl display_value="x_1107692_banking_benefeciary.*">d08d777983a09e502740f496feaad308</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c30f33b583e09e502740f496feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 02:19:06</sys_updated_on>
+        <sys_user_role display_value="u_state_user" name="u_state_user">215a42d0831c92102740f496feaad3ef</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
