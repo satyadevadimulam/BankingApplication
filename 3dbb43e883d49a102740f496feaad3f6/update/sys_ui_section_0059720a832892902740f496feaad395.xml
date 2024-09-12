@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0059720a832892902740f496feaad395" sys_domain="global" table="x_1107692_banking_customer_data_lookup" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>0c59720a832892902740f496feaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>c459720a832892902740f496feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>4c59720a832892902740f496feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>0459720a832892902740f496feaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>c859720a832892902740f496feaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgent</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>4059720a832892902740f496feaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_id>4459720a832892902740f496feaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_customer_data_lookup" sys_domain="global" view="Default view">0059720a832892902740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1107692_banking_customer_data_lookup</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-11 15:47:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0059720a832892902740f496feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_customer_data_lookup</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_section_0059720a832892902740f496feaad395</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-11 15:47:42</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

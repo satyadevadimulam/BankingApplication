@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Demo Data Lookup on customer">6d00b4828364de502740f496feaad33d</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>x_1107692_banking_customer_data_lookup</matcher_table>
+        <matcher_table_field>impact</matcher_table_field>
+        <source_table>x_1107692_banking_customer</source_table>
+        <source_table_field>impact</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:46:49</sys_created_on>
+        <sys_id>b3093a46832892902740f496feaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>dl_definition_rel_match_b3093a46832892902740f496feaad389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:46:49</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>
