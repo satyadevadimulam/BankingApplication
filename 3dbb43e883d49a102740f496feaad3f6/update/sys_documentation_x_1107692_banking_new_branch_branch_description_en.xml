@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="branch_description" label="Branch description" language="en" table="x_1107692_banking_new_branch">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>branch_description</element>
+            <help/>
+            <hint/>
+            <label>Branch description</label>
+            <language>en</language>
+            <name>x_1107692_banking_new_branch</name>
+            <plural>Branch descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-22 03:11:26</sys_created_on>
+            <sys_id>74b53865837c9e102740f496feaad320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Branch description</sys_name>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_documentation_x_1107692_banking_new_branch_branch_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-22 03:11:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

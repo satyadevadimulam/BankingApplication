@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1107692_banking_customer" version="2" view="task_">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Customer - Task " name="x_1107692_banking_customer" related_list="NULL" sys_domain="global" view="d332b99d83bc5a102740f496feaad3cb">5332b99d83bc5a102740f496feaad3d1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:f2d18478835cda102740f496feaad3b4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-21 12:57:27</sys_created_on>
+            <sys_id>5f32715183fc5a102740f496feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-21 12:57:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Customer - Task " name="x_1107692_banking_customer" related_list="NULL" sys_domain="global" view="d332b99d83bc5a102740f496feaad3cb">5332b99d83bc5a102740f496feaad3d1</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-21 12:57:27</sys_created_on>
+            <sys_id>9732715183fc5a102740f496feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-21 12:57:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Customer - Task </calculated_name>
+            <filter/>
+            <name>x_1107692_banking_customer</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-21 12:57:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5332b99d83bc5a102740f496feaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer - Task </sys_name>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_related_x_1107692_banking_customer_task_</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-21 12:57:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Task " name="task_">d332b99d83bc5a102740f496feaad3cb</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
