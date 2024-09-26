@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make Section Hide - Loan</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var sections = g_form.getSections();
+    for (var i = 0; i < sections.length; i++) {
+        if (g_user.hasRole("x_1107692_banking.AccountManager")) {
+            g_form.setSectionDisplay("credit_verification", true);
+            g_form.setSectionDisplay("document_verification", true);
+            g_form.setSectionDisplay("loan_amount_verification", true);
+        } else if (g_user.hasRole("x_1107692_banking.AccountUser")) {
+            g_form.setSectionDisplay("document_verification", false);
+            g_form.setSectionDisplay("amount_verification", false);
+        } else if (g_user.hasRole("x_1107692_banking.GovernmentUser")) {
+            g_form.setSectionDisplay("amount_verification", false);
+            g_form.setSectionDisplay("credit_verification", false);
+        } else if (g_user.hasRole("x_1107692_banking.FinanceUser")) {
+            g_form.setSectionDisplay("document_verification", false);
+            g_form.setSectionDisplay("credit_verification", false);
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 10:21:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01ae3f5483a416942740f496feaad37d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Make Section Hide - Loan</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_script_client_01ae3f5483a416942740f496feaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 04:14:01</sys_updated_on>
+        <table>x_1107692_banking_ticket</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
