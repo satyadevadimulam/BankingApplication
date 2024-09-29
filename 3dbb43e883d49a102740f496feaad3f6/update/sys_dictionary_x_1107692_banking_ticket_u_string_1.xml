@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="customer_id" table="x_1107692_banking_ticket">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_1" table="x_1107692_banking_ticket">
         <active>true</active>
         <array>false</array>
-        <attributes>ref_contributions=user_show_loans_for_user</attributes>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Customer ID</column_label>
+        <column_label>Run Flow Designer</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>false</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -26,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>customer_id</element>
+        <element>u_string_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
         <name>x_1107692_banking_ticket</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,15 +46,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-03 17:48:55</sys_created_on>
-        <sys_id>11f7062b839412542740f496feaad3e4</sys_id>
-        <sys_name>Customer ID</sys_name>
+        <sys_created_on>2024-09-06 03:44:50</sys_created_on>
+        <sys_id>9ae32614836492942740f496feaad3b1</sys_id>
+        <sys_name>Run Flow Designer</sys_name>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
-        <sys_update_name>sys_dictionary_x_1107692_banking_ticket_customer_id</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1107692_banking_ticket_u_string_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-28 16:01:54</sys_updated_on>
+        <sys_updated_on>2024-09-28 15:52:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
