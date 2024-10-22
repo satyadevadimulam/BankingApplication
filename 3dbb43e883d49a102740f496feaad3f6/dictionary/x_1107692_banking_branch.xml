@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="de06648d83d892502740f496feaad398" label="Branch" max_length="40" name="x_1107692_banking_branch" type="collection">
+        <element label="Branch city" max_length="40" name="branch_city" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Branch Street" max_length="40" name="branch_street" type="string"/>
+        <element label="Branch Country" max_length="40" name="branch_country" type="string"/>
+        <element label="Fax No" max_length="40" name="fax_no" type="integer"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Branch Name" max_length="40" name="branch_name" type="string"/>
+        <element label="Branch PinCode" max_length="40" name="branch_pincode" type="integer"/>
+        <element label="Contact" max_length="40" name="contact" type="integer"/>
+    </element>
+</database>

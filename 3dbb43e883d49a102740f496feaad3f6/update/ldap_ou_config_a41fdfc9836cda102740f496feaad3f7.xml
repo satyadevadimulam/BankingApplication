@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_ou_config">
+    <ldap_ou_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default_values/>
+        <filter>(objectClass=person)</filter>
+        <map/>
+        <name>Users</name>
+        <ou>CN=Users</ou>
+        <query_field>cn</query_field>
+        <server display_value="Demo1">7e6ed7c9836cda102740f496feaad32a</server>
+        <sys_class_name>ldap_ou_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-08 15:58:46</sys_created_on>
+        <sys_id>a41fdfc9836cda102740f496feaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>ldap_ou_config_a41fdfc9836cda102740f496feaad3f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-08 15:58:46</sys_updated_on>
+        <table>sys_user</table>
+    </ldap_ou_config>
+</record_update>

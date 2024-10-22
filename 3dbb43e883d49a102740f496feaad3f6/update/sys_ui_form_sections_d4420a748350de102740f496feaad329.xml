@@ -38,7 +38,7 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1107692_banking_accountant" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">d4420a748350de102740f496feaad329</sys_ui_form>
-            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">98420a748350de102740f496feaad333</sys_ui_section>
+            <sys_ui_section caption="Government Details" display_value="Government Details" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">98420a748350de102740f496feaad333</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-27 05:47:23</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1107692_banking_accountant" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">d4420a748350de102740f496feaad329</sys_ui_form>
-            <sys_ui_section caption="Finance" display_value="Finance" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">3d8202388350de102740f496feaad30b</sys_ui_section>
+            <sys_ui_section caption="Finance Details" display_value="Finance Details" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">3d8202388350de102740f496feaad30b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-27 05:47:23</sys_updated_on>
         </sys_ui_form_section>

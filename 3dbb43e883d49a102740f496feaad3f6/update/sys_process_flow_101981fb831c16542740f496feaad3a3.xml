@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1107692_banking_ticket">state=-5^EQ<item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+        <condition table="x_1107692_banking_ticket">state=45^EQ<item display_value="Loan Request Pending" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="45"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
-        <label>Hold</label>
+        <label>Activate</label>
         <name>Ticket hold</name>
-        <order>110</order>
+        <order>120</order>
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-04 07:51:45</sys_created_on>
         <sys_id>101981fb831c16542740f496feaad3a3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Ticket hold</sys_name>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name>sys_process_flow_101981fb831c16542740f496feaad3a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-04 07:52:13</sys_updated_on>
+        <sys_updated_on>2024-10-21 15:14:26</sys_updated_on>
         <table>x_1107692_banking_ticket</table>
     </sys_process_flow>
 </record_update>

@@ -9,7 +9,7 @@
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
-        <sys_security_acl display_value="">fdfbb15183e8de102740f496feaad3c9</sys_security_acl>
+        <sys_security_acl display_value="x_1107692_banking_customer">fdfbb15183e8de102740f496feaad3c9</sys_security_acl>
         <sys_update_name>sys_security_acl_role_97fbb15183e8de102740f496feaad3cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-09 03:27:49</sys_updated_on>

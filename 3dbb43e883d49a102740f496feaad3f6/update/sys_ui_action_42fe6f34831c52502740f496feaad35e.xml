@@ -31,46 +31,70 @@
         <onclick/>
         <order>200</order>
         <script><![CDATA[function trigerAccountVerificationflow() {
-
     try {
-        var inputs = {};
-        var accountflowinputs = {};
-        var grouprec;
-        if (gs.hasRole('x_1107692_banking.AccountUser')) {
-            grouprec = new GlideRecord('sys_user_group');
-            grouprec.get('225904c9839092502740f496feaad397');
-            inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
-            inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
-            inputs['requesting_details'] = 'Personal Details Tab';
-            inputs['fieldnameforapproval'] = 'personal_detail_approval';
-            inputs['fieldnameforverification'] = 'personal_verification';
-        } else if (gs.hasRole('x_1107692_banking.GovernmentUser')) {
-            grouprec = new GlideRecord('sys_user_group');
-            grouprec.get('64894cc9839092502740f496feaad3dc');
-            inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
-            inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
-            inputs['requesting_details'] = 'Government Proofs Details Tab';
-            inputs['fieldnameforapproval'] = 'govt_details_approval';
-            inputs['fieldnameforverification'] = 'goverment_verification';
-
-        } else if (gs.hasRole('x_1107692_banking.FinanceUser')) {
-            grouprec = new GlideRecord('sys_user_group');
-            grouprec.get('138900c9839092502740f496feaad345');
-            inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
-            inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
-            inputs['requesting_details'] = 'Finance Details Tab';
-            inputs['fieldnameforapproval'] = 'finance_approval_status';
-            inputs['fieldnameforverification'] = 'finance_verification_status';
-        }
-        sn_fd.FlowAPI.getRunner().subflow('x_1107692_banking.approvals_and_task_generation').inBackground().withInputs(inputs).run();
-
-        if (current.account_verification == '3' || current.account_verification == '4') {
+        if (gs.hasRole('x_1107692_banking.AccountManager')) {
+            var fieldstoupdated = {
+                'personal_verification':['personal_detail_approval','Personal Details Tab'],
+                'goverment_verification': ['govt_details_approval','Government Details Tab'],
+                'finance_verification_status': ['finance_approval_status','Finance Details Tab']
+            };
             try {
-                accountflowinputs['account_record'] = current;
-                var result = sn_fd.FlowAPI.getRunner().subflow('x_1107692_banking.account_verification_for_banking_account').inBackground().withInputs(accountflowinputs).run();
+                for (var key in fieldstoupdated) {
+                    var inputs = {};
+                    inputs['fieldname'] = key; // String 
+                    inputs['fieldvalue'] = '3'; // String 
+                    inputs['account_sysid'] = current.sys_id; // String 
+                    inputs['fieldvalueforapproval'] = 'NO'; // String 
+                    inputs['fieldnameforapproval'] = fieldstoupdated[key][0];
+					inputs['issuperuser']=true;
+					inputs['catalogtaskdescription']=fieldstoupdated[key][1];
+                    sn_fd.FlowAPI.getRunner().action('x_1107692_banking.sub_tabs_status_updation').inBackground().withInputs(inputs).run();
+                }
             } catch (ex) {
-                var message1 = ex.getMessage();
-                gs.error(message1);
+                var message = ex.getMessage();
+                gs.error(message);
+            }
+
+        } else {
+            var inputs = {};
+            var accountflowinputs = {};
+            var grouprec;
+            if (gs.hasRole('x_1107692_banking.AccountUser')) {
+                grouprec = new GlideRecord('sys_user_group');
+                grouprec.get('225904c9839092502740f496feaad397');
+                inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
+                inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
+                inputs['requesting_details'] = 'Personal Details Tab';
+                inputs['fieldnameforapproval'] = 'personal_detail_approval';
+                inputs['fieldnameforverification'] = 'personal_verification';
+            } else if (gs.hasRole('x_1107692_banking.GovernmentUser')) {
+                grouprec = new GlideRecord('sys_user_group');
+                grouprec.get('64894cc9839092502740f496feaad3dc');
+                inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
+                inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
+                inputs['requesting_details'] = 'Government Proofs Details Tab';
+                inputs['fieldnameforapproval'] = 'govt_details_approval';
+                inputs['fieldnameforverification'] = 'goverment_verification';
+
+            } else if (gs.hasRole('x_1107692_banking.FinanceUser')) {
+                grouprec = new GlideRecord('sys_user_group');
+                grouprec.get('138900c9839092502740f496feaad345');
+                inputs['approver_group'] = grouprec; // GlideRecord of table: sys_user_group 
+                inputs['approval_for'] = current; // GlideRecord of table: x_1107692_banking_accountant in
+                inputs['requesting_details'] = 'Finance Details Tab';
+                inputs['fieldnameforapproval'] = 'finance_approval_status';
+                inputs['fieldnameforverification'] = 'finance_verification_status';
+            }
+            sn_fd.FlowAPI.getRunner().subflow('x_1107692_banking.approvals_and_task_generation').inBackground().withInputs(inputs).run();
+
+            if (current.account_verification == '3' || current.account_verification == '4') {
+                try {
+                    accountflowinputs['account_record'] = current;
+                    var result = sn_fd.FlowAPI.getRunner().subflow('x_1107692_banking.account_verification_for_banking_account').inBackground().withInputs(accountflowinputs).run();
+                } catch (ex) {
+                    var message1 = ex.getMessage();
+                    gs.error(message1);
+                }
             }
         }
     } catch (ex) {
@@ -91,7 +115,7 @@ trigerAccountVerificationflow();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42fe6f34831c52502740f496feaad35e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Submit for Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
@@ -99,7 +123,7 @@ trigerAccountVerificationflow();]]></script>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name>sys_ui_action_42fe6f34831c52502740f496feaad35e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 15:53:19</sys_updated_on>
+        <sys_updated_on>2024-08-29 12:21:11</sys_updated_on>
         <table>x_1107692_banking_accountant</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

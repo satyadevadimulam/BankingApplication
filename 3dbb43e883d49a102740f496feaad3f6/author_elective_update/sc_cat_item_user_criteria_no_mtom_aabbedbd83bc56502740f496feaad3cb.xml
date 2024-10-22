@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Mahesh Demo">9f466ee983f452502740f496feaad35a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 01:45:58</sys_created_on>
+        <sys_id>aabbedbd83bc56502740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mahesh Demo.Restricted access to madhapur </sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_aabbedbd83bc56502740f496feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 01:45:58</sys_updated_on>
+        <user_criteria display_value="Restricted access to madhapur ">d10b69f983bc56502740f496feaad317</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_aabbedbd83bc56502740f496feaad3cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Mahesh Demo">9f466ee983f452502740f496feaad35a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-23 01:45:58</sys_created_on><sys_id>aabbedbd83bc56502740f496feaad3cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mahesh Demo.Restricted access to madhapur </sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_aabbedbd83bc56502740f496feaad3cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-23 01:45:58</sys_updated_on><user_criteria display_value="Restricted access to madhapur ">d10b69f983bc56502740f496feaad317</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>840834748</payload_hash>
+        <record_name>Mahesh Demo.Restricted access to madhapur </record_name>
+        <reverted_from/>
+        <source>ce26a2a983f452502740f496feaad3ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-23 01:45:58</sys_created_on>
+        <sys_id>f6bb65f183fc56502740f496feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1921c8e91260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-23 01:45:58</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>fabb65f13efc565017cb676a3e1da009</update_guid>
+        <update_guid_history>fabb65f13efc565017cb676a3e1da009:840834748</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mahesh Demo.Restricted access to madhapur ">abdb6c13839996102740f496feaad3f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:29:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>4ff14b6c0d32442083bb92b041830900</sys_id>
+        <sys_metadata>aabbedbd83bc56502740f496feaad3cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mahesh Demo.Restricted access to madhapur </sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_aabbedbd83bc56502740f496feaad3cb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_aabbedbd83bc56502740f496feaad3cb">f6bb65f183fc56502740f496feaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:29:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

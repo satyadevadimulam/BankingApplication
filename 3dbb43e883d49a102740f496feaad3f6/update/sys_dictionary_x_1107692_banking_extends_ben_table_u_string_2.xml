@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 18:29:19</sys_created_on>
-        <sys_id>a1b41af583a8da502740f496feaad36b</sys_id>
         <sys_name>Test 2</sys_name>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>

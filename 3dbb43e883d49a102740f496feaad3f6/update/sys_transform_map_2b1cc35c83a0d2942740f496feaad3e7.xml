@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>true</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>All Fields</enforce_mandatory_fields>
+        <name>User records transfrom map</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1107692_banking_user_record_import_set</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 06:43:10</sys_created_on>
+        <sys_id>2b1cc35c83a0d2942740f496feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User records transfrom map</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_transform_map_2b1cc35c83a0d2942740f496feaad3e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 06:43:10</sys_updated_on>
+        <target_table>sys_user</target_table>
+    </sys_transform_map>
+</record_update>

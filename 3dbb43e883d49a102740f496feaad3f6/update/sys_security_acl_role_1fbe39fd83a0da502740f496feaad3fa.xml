@@ -9,7 +9,7 @@
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
-        <sys_security_acl display_value="">f5be39fd83a0da502740f496feaad3f2</sys_security_acl>
+        <sys_security_acl display_value="x_1107692_banking_benefeciary.benefeciary_id">f5be39fd83a0da502740f496feaad3f2</sys_security_acl>
         <sys_update_name>sys_security_acl_role_1fbe39fd83a0da502740f496feaad3fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 16:53:48</sys_updated_on>

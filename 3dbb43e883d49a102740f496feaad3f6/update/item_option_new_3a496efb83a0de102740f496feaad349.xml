@@ -94,7 +94,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Customer Data">90e76efb83a0de102740f496feaad343</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

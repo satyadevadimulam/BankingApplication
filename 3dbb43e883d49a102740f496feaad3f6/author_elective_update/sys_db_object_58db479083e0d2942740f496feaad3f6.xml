@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>user record import set</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1107692_banking_user_record_import_set</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">d88bf3e2f832021008dd9cfea425ac2c</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 06:39:12</sys_created_on>
+        <sys_id>58db479083e0d2942740f496feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Banking User Record Import Set</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_db_object_58db479083e0d2942740f496feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 06:39:12</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_db_object_58db479083e0d2942740f496feaad3f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>user record import set</label><live_feed_enabled>false</live_feed_enabled><name>x_1107692_banking_user_record_import_set</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">d88bf3e2f832021008dd9cfea425ac2c</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-06 06:39:12</sys_created_on><sys_id>58db479083e0d2942740f496feaad3f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Banking User Record Import Set</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sys_db_object_58db479083e0d2942740f496feaad3f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-06 06:39:12</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1070271325</payload_hash>
+        <record_name>user record import set</record_name>
+        <reverted_from/>
+        <source>ad477bf8835c52502740f496feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 06:39:13</sys_created_on>
+        <sys_id>3cdb879083e0d2942740f496feaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191c60ef09f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 06:39:13</sys_updated_on>
+        <type>Table</type>
+        <update_guid>20db8790a4e0d2942ace100776dbe993</update_guid>
+        <update_guid_history>20db8790a4e0d2942ace100776dbe993:1070271325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>fb4e0c724a2c4e64acaacda47fe11890</sys_id>
+        <sys_metadata>58db479083e0d2942740f496feaad3f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Banking User Record Import Set</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_db_object_58db479083e0d2942740f496feaad3f6</sys_update_name>
+        <sys_update_version display_value="sys_db_object_58db479083e0d2942740f496feaad3f6">3cdb879083e0d2942740f496feaad393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

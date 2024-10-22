@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="5847412183a416502740f496feaad3ec" extends="dl_matcher" label="Customer data lookup" max_length="40" name="x_1107692_banking_customer_data_lookup" type="collection">
+        <element choice="1" choice_field="priority" choice_table="x_1107692_banking_customer" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="urgent" choice_table="x_1107692_banking_customer" label="Urgent" max_length="40" name="urgent" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="impact" choice_table="x_1107692_banking_customer" label="Impact" max_length="40" name="impact" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

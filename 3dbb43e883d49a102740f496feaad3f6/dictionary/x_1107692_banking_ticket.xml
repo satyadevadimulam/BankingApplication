@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="94e2866f83d012542740f496feaad39e" extends="task" label="Loan" max_length="40" name="x_1107692_banking_ticket" type="collection">
+        <element choice="1" label="piority" max_length="40" name="piority" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="u_glide_date_12" type="glide_date"/>
+        <element attributes="ref_contributions=user_show_loans_for_user" label="Customer ID" mandatory="true" max_length="32" name="customer_id" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Installments" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Loan Category" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Main" sequence="0" value="main"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Child" sequence="1" value="child"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Amount Approval Required" max_length="40" name="u_string_7" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Credit Approval Required" max_length="40" name="u_string_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Document Verification" max_length="40" name="u_choice_2" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work in progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Loan Process Request Verification" max_length="40" name="loan_request_verification" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work in progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Due Payments" max_length="20" name="u_currency_17" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Recurring Balance" max_length="20" name="u_currency_18" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Loan Process Approval" max_length="40" name="loan_process_approval" read_only="true" type="string"/>
+        <element choice="1" label="Urgent" max_length="40" name="urgent" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Rate of Interest" max_length="40" name="u_string_11" type="string"/>
+        <element label="Type of Loan" max_length="40" name="type_of_account" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Home Loan" sequence="0" value="0"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Savings Account"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Current Account"/>
+                <element inactive_on_update="false" label="Personal Loan" sequence="2" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Loan Account"/>
+                <element inactive_on_update="false" label="Vehicle Loan" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Loan Process Request" max_length="40" name="loan_process_request" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Terminated" sequence="2" value="terminated"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Amount Verification" max_length="40" name="u_choice_6" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work in progress"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Document Approval Required" max_length="40" name="u_string_4" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Fixed Balance" max_length="20" name="u_currency_19" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Aadhar Number" max_length="40" name="u_string_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pan Number" max_length="40" name="u_string_14" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Run Flow Designer" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Parent Loan" max_length="32" name="u_reference_8" reference="x_1107692_banking_ticket" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Passport Number" max_length="40" name="u_string_15" type="string"/>
+        <element attributes="omit_sys_original=true" label="Loan Amount" max_length="20" name="u_currency_9" type="currency"/>
+        <element label="Existing customer" max_length="40" name="existing_customer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Credit Verification" max_length="40" name="u_choice_1" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work in progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Bank Balance" max_length="20" name="u_currency_5" type="currency"/>
+    </element>
+</database>

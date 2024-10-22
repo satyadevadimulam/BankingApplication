@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Government Proofs" section_id="a2dedbc58350d6502740f496feaad32e" sys_domain="global" table="x_1107692_banking_benefeciary" version="3" view="Manager_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pan_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_id>a2dedbc58350d6502740f496feaad330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aadhar_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_id>aadedbc58350d6502740f496feaad330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_id>aadedbc58350d6502740f496feaad32f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passport</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_id>a2dedbc58350d6502740f496feaad331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>criminal_case</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_id>a2dedbc58350d6502740f496feaad32f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Government Proofs</caption>
+            <header>false</header>
+            <name>x_1107692_banking_benefeciary</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2dedbc58350d6502740f496feaad32e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_benefeciary</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_section_a2dedbc58350d6502740f496feaad32e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager View" name="Manager_View">2d49ab688314da102740f496feaad330</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_ui_section_a2dedbc58350d6502740f496feaad32e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Government Proofs" section_id="a2dedbc58350d6502740f496feaad32e" sys_domain="global" table="x_1107692_banking_benefeciary" version="3" view="Manager_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>pan_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_id>a2dedbc58350d6502740f496feaad330</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>aadhar_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_id>aadedbc58350d6502740f496feaad330</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_id>aadedbc58350d6502740f496feaad32f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>passport</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_id>a2dedbc58350d6502740f496feaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>criminal_case</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_id>a2dedbc58350d6502740f496feaad32f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="2d49ab688314da102740f496feaad330">a2dedbc58350d6502740f496feaad32e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Government Proofs</caption><header>false</header><name>x_1107692_banking_benefeciary</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2dedbc58350d6502740f496feaad32e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107692_banking_benefeciary</sys_name><sys_overrides/><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sys_ui_section_a2dedbc58350d6502740f496feaad32e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><title>false</title><view display_value="Manager View" name="Manager_View">2d49ab688314da102740f496feaad330</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>757009887</payload_hash>
+        <record_name>Benefeciary</record_name>
+        <reverted_from/>
+        <source>b314d7ec83d89a102740f496feaad386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+        <sys_id>2adedbc58350d6502740f496feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191925b0edd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>aededbc56450d6502beabfc4ded14a32</update_guid>
+        <update_guid_history>aededbc56450d6502beabfc4ded14a32:757009887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 14:50:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>397a59109bd04860b43bd6987c154400</sys_id>
+        <sys_metadata>a2dedbc58350d6502740f496feaad32e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Government Proofs</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">e186e849839492502740f496feaad3e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a2dedbc58350d6502740f496feaad32e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a2dedbc58350d6502740f496feaad32e">2adedbc58350d6502740f496feaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 14:50:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

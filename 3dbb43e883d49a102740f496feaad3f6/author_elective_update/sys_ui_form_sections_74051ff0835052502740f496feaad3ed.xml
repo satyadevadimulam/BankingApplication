@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="74051ff0835052502740f496feaad3ed" sys_domain="global" table="x_1107692_banking_transaction" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d05d774835052502740f496feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_transaction" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">74051ff0835052502740f496feaad3ed</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">c505d774835052502740f496feaad3c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:20:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:23:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54a5dbb8835052502740f496feaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_transaction" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">74051ff0835052502740f496feaad3ed</sys_ui_form>
+            <sys_ui_section caption="Finance" display_value="Finance" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">84a5dbb8835052502740f496feaad339</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:23:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1107692_banking_transaction</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-26 10:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74051ff0835052502740f496feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_transaction</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_74051ff0835052502740f496feaad3ed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-26 10:20:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Customer view" name="Customer_view">87ec7c5c839812102740f496feaad334</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_ui_form_sections_74051ff0835052502740f496feaad3ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="74051ff0835052502740f496feaad3ed" sys_domain="global" table="x_1107692_banking_transaction" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-26 10:20:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8d05d774835052502740f496feaad3c9</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1107692_banking_transaction" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">74051ff0835052502740f496feaad3ed</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">c505d774835052502740f496feaad3c2</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-26 10:20:39</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-26 10:23:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54a5dbb8835052502740f496feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1107692_banking_transaction" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">74051ff0835052502740f496feaad3ed</sys_ui_form><sys_ui_section caption="Finance" display_value="Finance" name="x_1107692_banking_transaction" sys_domain="global" view="87ec7c5c839812102740f496feaad334">84a5dbb8835052502740f496feaad339</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-26 10:23:20</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1107692_banking_transaction</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-26 10:20:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>74051ff0835052502740f496feaad3ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107692_banking_transaction</sys_name><sys_overrides/><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sys_ui_form_sections_74051ff0835052502740f496feaad3ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-26 10:20:39</sys_updated_on><sys_user/><view display_value="Customer view" name="Customer_view">87ec7c5c839812102740f496feaad334</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1270501688</payload_hash>
+        <record_name>Transaction</record_name>
+        <reverted_from/>
+        <source>ba912939831096902740f496feaad36e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 10:23:20</sys_created_on>
+        <sys_id>90a5dbb8835052502740f496feaad359</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1918e362b470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 04:30:24</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>58a5dbb8d5505250a18e176ad1f9da58</update_guid>
+        <update_guid_history>58a5dbb8d5505250a18e176ad1f9da58:1270501688,0ca5dbb81a5052500c604affc8b8c753:-1248550611,8d05d7747950525001e440d3435247e9:546347252,f8051ff0ed5052502de3ba50a7f4f7ef:-682678316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 10:57:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>5c08b97587184e2c98c5def138ae1d04</sys_id>
+        <sys_metadata>74051ff0835052502740f496feaad3ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking_transaction</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">e8a01ebc8314de102740f496feaad353</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_74051ff0835052502740f496feaad3ed</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_74051ff0835052502740f496feaad3ed">90a5dbb8835052502740f496feaad359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 10:57:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

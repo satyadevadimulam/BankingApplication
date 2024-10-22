@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="304452f18368da502740f496feaad39d" extends="x_1107692_banking_benefeciary" label="Extends Ben Table" max_length="40" name="x_1107692_banking_extends_ben_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Test 2" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 3" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 4" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test1" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>

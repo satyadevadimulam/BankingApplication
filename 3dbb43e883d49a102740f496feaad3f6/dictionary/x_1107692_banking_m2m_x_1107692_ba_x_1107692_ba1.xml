@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bdff8175839856902740f496feaad332" label="x_1107692_banking_m2m_Accounts_Transactions" max_length="40" name="x_1107692_banking_m2m_x_1107692_ba_x_1107692_ba1" type="collection">
+        <element attributes="encode_utf8=false" label="Transactions" max_length="32" name="x_1107692_banking_m2m_transactions" reference="x_1107692_banking_m2m_transactions" type="reference"/>
+        <element attributes="encode_utf8=false" label="Accounts" max_length="32" name="x_1107692_banking_accountant" reference="x_1107692_banking_accountant" type="reference"/>
+        <index name="index">
+            <element name="x_1107692_banking_accountant"/>
+        </index>
+    </element>
+</database>

@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>sub_tabs_status_updation</internal_name>
-        <label_cache>[{"name":"{{action.fieldname}}","label":"action➛FieldNameforVerification","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f8bd5cca-dc4b-49be-af78-7cfdcccda0c1"}},{"name":"{{action.fieldvalue}}","label":"action➛FieldValueforPerVerfication","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a2f9b278-37bd-4658-bce5-91907fb7763c"}},{"name":"{{action.account_sysid}}","label":"action➛Account SysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldvalueforapproval}}","label":"action➛FieldValueforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldnameforapproval}}","label":"action➛FieldNameforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.fieldname}}","label":"action➛FieldNameforVerification","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f8bd5cca-dc4b-49be-af78-7cfdcccda0c1"}},{"name":"{{action.fieldvalue}}","label":"action➛FieldValueforPerVerfication","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a2f9b278-37bd-4658-bce5-91907fb7763c"}},{"name":"{{action.account_sysid}}","label":"action➛Account SysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldvalueforapproval}}","label":"action➛FieldValueforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldnameforapproval}}","label":"action➛FieldNameforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.issuperuser}}","label":"action➛IsSuperUser","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.catalogtaskdescription}}","label":"action➛CatalogTaskDescription","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.main_table}}","label":"action➛Main Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>e0a5bf38835c52502740f496feaad34b</master_snapshot>
         <name>Sub Tabs Status Updation</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5534b3b4835c52502740f496feaad3ab</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Sub Tabs Status Updation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5534b3b4835c52502740f496feaad3ab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:42</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -90,10 +90,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:42:53</sys_created_on>
         <sys_id>e0953f38835c52502740f496feaad35e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:33</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:14</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0953f38835c52502740f496feaad35e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -104,15 +104,29 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:42:54</sys_created_on>
         <sys_id>20953f38835c52502740f496feaad377</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:33</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:14</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
- var fielddetails =  new GlideRecord('x_1107692_banking_accountant');&#13;
+ if(inputs.maintable)&#13;
+  var fielddetails =  new GlideRecord('x_1107692_banking_ticket');&#13;
+  else&#13;
+   var fielddetails =  new GlideRecord('x_1107692_banking_accountant');&#13;
  fielddetails.get(inputs.sysid);&#13;
+ if(inputs.fieldnameforVerification)&#13;
  fielddetails.setValue(inputs.fieldnameforVerification, inputs.fieldvalueforVerification);&#13;
+ if(inputs.fieldnameforApproval)&#13;
  fielddetails.setValue(inputs.fieldnameforApproval, inputs.fieldvalueforApproval);&#13;
  fielddetails.update();&#13;
+ if(inputs.issuperuser){&#13;
+                    var taskCr = new GlideRecord('sc_task');&#13;
+                taskCr.initialize();&#13;
+                taskCr.assigned_to = gs.getUserID();&#13;
+                taskCr.short_description = inputs.catatlogtaskdesc;&#13;
+                taskCr.state = '3';&#13;
+                taskCr.correlation_id = inputs.sysid;&#13;
+                taskCr.insert();&#13;
+ }&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -132,6 +146,20 @@
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0953f38835c52502740f496feaad35e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>7e9b43b583581a902740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">b29b43b583581a902740f496feaad397</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=e0953f38835c52502740f496feaad35e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
@@ -144,6 +172,18 @@
         <sys_updated_on>2024-08-26 12:42:54</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catatlogtaskdesc</field>
+        <id>e0953f38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>f29b43b583581a902740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</table>
+        <value>{{action.catalogtaskdescription}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fieldname</field>
@@ -218,6 +258,30 @@
         <value>{{action.fieldvalue}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>issuperuser</field>
+        <id>e0953f38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>fa9b43b583581a902740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</table>
+        <value>{{action.issuperuser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>maintable</field>
+        <id>e0953f38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:43</sys_created_on>
+        <sys_id>0630269483e092942740f496feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:43</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</table>
+        <value>{{action.main_table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>e0953f38835c52502740f496feaad35e</id>
         <sys_created_by>admin</sys_created_by>
@@ -244,7 +308,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e0953f38835c52502740f496feaad35e^id=e0953f38835c52502740f496feaad35e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e0953f38835c52502740f496feaad35e"/>
     <sys_translated_text action="delete_multiple" query="documentkey=e0953f38835c52502740f496feaad35e"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=e0953f38835c52502740f496feaad35e^sys_idNOT IN3d3bbff8839c52502740f496feaad3ba,713bbff8839c52502740f496feaad3dd,b53bbff8839c52502740f496feaad3be,e0953f38835c52502740f496feaad36b,f53bbff8839c52502740f496feaad3c1"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e0953f38835c52502740f496feaad35e^sys_idNOT IN3d3bbff8839c52502740f496feaad3ba,713bbff8839c52502740f496feaad3dd,b29b43b583581a902740f496feaad397,b53bbff8839c52502740f496feaad3be,c630269483e092942740f496feaad3d7,e0953f38835c52502740f496feaad36b,f29b43b583581a902740f496feaad39b,f53bbff8839c52502740f496feaad3c1"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -415,6 +479,89 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issuperuser</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">e0953f38835c52502740f496feaad35e</model>
+        <model_id>e0953f38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>b29b43b583581a902740f496feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -522,6 +669,89 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <element>maintable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0953f38835c52502740f496feaad35e</model>
+        <model_id>e0953f38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>700</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:43</sys_created_on>
+        <sys_id>c630269483e092942740f496feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
         <element>sysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -565,6 +795,89 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-26 12:42:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catatlogtaskdesc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e0953f38835c52502740f496feaad35e</model>
+        <model_id>e0953f38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e0953f38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>f29b43b583581a902740f496feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -769,7 +1082,175 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=5534b3b4835c52502740f496feaad3ab^sys_idNOT IN6095f7f4835c52502740f496feaad3f4,a8953f38835c52502740f496feaad358,bd3bbff8839c52502740f496feaad390,bd3bbff8839c52502740f496feaad396,e095f7f4835c52502740f496feaad3f9"/>
+    <sys_hub_action_input action="delete_multiple" query="model=5534b3b4835c52502740f496feaad3ab^sys_idNOT IN369b43b583581a902740f496feaad342,3930269483e092942740f496feaad387,6095f7f4835c52502740f496feaad3f4,a8953f38835c52502740f496feaad358,bd3bbff8839c52502740f496feaad390,bd3bbff8839c52502740f496feaad396,e095f7f4835c52502740f496feaad3f9,f69b43b583581a902740f496feaad364"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=0386b907-ea4e-4f4f-9217-3e154e296714</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issuperuser</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>IsSuperUser</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sub Tabs Status Updation">5534b3b4835c52502740f496feaad3ab</model>
+        <model_id>5534b3b4835c52502740f496feaad3ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>369b43b583581a902740f496feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=369b43b583581a902740f496feaad342"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d7cec148-d9bc-4421-b00e-333644de14db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>main_table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Main Table</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sub Tabs Status Updation">5534b3b4835c52502740f496feaad3ab</model>
+        <model_id>5534b3b4835c52502740f496feaad3ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:42</sys_created_on>
+        <sys_id>3930269483e092942740f496feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3930269483e092942740f496feaad387"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1190,6 +1671,90 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e095f7f4835c52502740f496feaad3f9"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b8dff4f4-e2a7-4b89-994f-be994c5d3386</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalogtaskdescription</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CatalogTaskDescription</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sub Tabs Status Updation">5534b3b4835c52502740f496feaad3ab</model>
+        <model_id>5534b3b4835c52502740f496feaad3ab</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>f69b43b583581a902740f496feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f69b43b583581a902740f496feaad364"/>
     <sys_hub_action_output action="delete_multiple" query="model=5534b3b4835c52502740f496feaad3ab^sys_idNOT IN20953f38835c52502740f496feaad37b,a0953f38835c52502740f496feaad380"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1343,14 +1908,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:42:54</sys_created_on>
         <sys_id>a0953f38835c52502740f496feaad380</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:40</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1377,7 +1942,7 @@
         <sys_updated_on>2024-08-26 12:42:54</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bc953f38835c52502740f496feaad396"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab^sys_idNOT IN2c953f38835c52502740f496feaad35b,a8953f38835c52502740f496feaad357,e095f7f4835c52502740f496feaad3f8,f53bbff8839c52502740f496feaad39a,fd3bbff8839c52502740f496feaad394"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab^sys_idNOT IN2c953f38835c52502740f496feaad35b,7a9b43b583581a902740f496feaad362,a8953f38835c52502740f496feaad357,b29b43b583581a902740f496feaad368,c230269483e092942740f496feaad38e,e095f7f4835c52502740f496feaad3f8,f53bbff8839c52502740f496feaad39a,fd3bbff8839c52502740f496feaad394"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>account_sysid</element>
         <help/>
@@ -1402,6 +1967,29 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issuperuser</element>
+        <help/>
+        <hint/>
+        <label>IsSuperUser</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>7a9b43b583581a902740f496feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>fieldvalue</element>
         <help/>
         <hint/>
@@ -1421,6 +2009,52 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-26 13:07:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>catalogtaskdescription</element>
+        <help/>
+        <hint/>
+        <label>CatalogTaskDescription</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:28</sys_created_on>
+        <sys_id>b29b43b583581a902740f496feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>main_table</element>
+        <help/>
+        <hint/>
+        <label>Main Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5534b3b4835c52502740f496feaad3ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:43</sys_created_on>
+        <sys_id>c230269483e092942740f496feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:43</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1546,17 +2180,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Sub Tabs Status Updation">5534b3b4835c52502740f496feaad3ab</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"85a5ff38835c52502740f496feaad310","name":"plan","plan_signature":null}}</plan>
-        <snapshot>bca5bf38835c52502740f496feaad3b8</snapshot>
+        <snapshot>07aaa2d483e492942740f496feaad3b7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:43:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>85a5ff38835c52502740f496feaad310</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 12:43:11</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:24</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1573,7 +2207,7 @@
         <description>To update Sub tabs Satus field</description>
         <flow_priority/>
         <internal_name>sub_tabs_status_updation</internal_name>
-        <label_cache>[{"name":"{{action.fieldname}}","label":"action➛FieldNameforVerification","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f8bd5cca-dc4b-49be-af78-7cfdcccda0c1"}},{"name":"{{action.fieldvalue}}","label":"action➛FieldValueforPerVerfication","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a2f9b278-37bd-4658-bce5-91907fb7763c"}},{"name":"{{action.account_sysid}}","label":"action➛Account SysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldvalueforapproval}}","label":"action➛FieldValueforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldnameforapproval}}","label":"action➛FieldNameforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.fieldname}}","label":"action➛FieldNameforVerification","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f8bd5cca-dc4b-49be-af78-7cfdcccda0c1"}},{"name":"{{action.fieldvalue}}","label":"action➛FieldValueforPerVerfication","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"a2f9b278-37bd-4658-bce5-91907fb7763c"}},{"name":"{{action.account_sysid}}","label":"action➛Account SysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldvalueforapproval}}","label":"action➛FieldValueforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.fieldnameforapproval}}","label":"action➛FieldNameforApproval","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.issuperuser}}","label":"action➛IsSuperUser","type":"action","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.catalogtaskdescription}}","label":"action➛CatalogTaskDescription","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.main_table}}","label":"action➛Main Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Sub Tabs Status Updation</name>
         <natlang/>
@@ -1585,7 +2219,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e0a5bf38835c52502740f496feaad34b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1593,7 +2227,7 @@
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:41</sys_updated_on>
+        <sys_updated_on>2024-09-06 03:28:58</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1646,10 +2280,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:43:10</sys_created_on>
         <sys_id>60a5bf38835c52502740f496feaad35e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:42</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60a5bf38835c52502740f496feaad35e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1669,20 +2303,48 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>60a5bf38835c52502740f496feaad35e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:47</sys_created_on>
+        <sys_id>63ab4fb583581a902740f496feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:47</sys_updated_on>
+        <value>0</value>
+        <variable display_value="issuperuser">1fab0fb583581a902740f496feaad3d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60a5bf38835c52502740f496feaad35e</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:43:10</sys_created_on>
         <sys_id>eca5bf38835c52502740f496feaad38c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:42</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
- var fielddetails =  new GlideRecord('x_1107692_banking_accountant');&#13;
+ if(inputs.maintable)&#13;
+  var fielddetails =  new GlideRecord('x_1107692_banking_ticket');&#13;
+  else&#13;
+   var fielddetails =  new GlideRecord('x_1107692_banking_accountant');&#13;
  fielddetails.get(inputs.sysid);&#13;
+ if(inputs.fieldnameforVerification)&#13;
  fielddetails.setValue(inputs.fieldnameforVerification, inputs.fieldvalueforVerification);&#13;
+ if(inputs.fieldnameforApproval)&#13;
  fielddetails.setValue(inputs.fieldnameforApproval, inputs.fieldvalueforApproval);&#13;
  fielddetails.update();&#13;
+ if(inputs.issuperuser){&#13;
+                    var taskCr = new GlideRecord('sc_task');&#13;
+                taskCr.initialize();&#13;
+                taskCr.assigned_to = gs.getUserID();&#13;
+                taskCr.short_description = inputs.catatlogtaskdesc;&#13;
+                taskCr.state = '3';&#13;
+                taskCr.correlation_id = inputs.sysid;&#13;
+                taskCr.insert();&#13;
+ }&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -1700,6 +2362,18 @@
         <sys_updated_on>2024-08-26 12:43:10</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catatlogtaskdesc</field>
+        <id>60a5bf38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:47</sys_created_on>
+        <sys_id>2fab4fb583581a902740f496feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</table>
+        <value>{{action.catalogtaskdescription}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>fieldname</field>
@@ -1774,6 +2448,30 @@
         <value>{{action.fieldvalue}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>issuperuser</field>
+        <id>60a5bf38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:47</sys_created_on>
+        <sys_id>efab4fb583581a902740f496feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</table>
+        <value>{{action.issuperuser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>maintable</field>
+        <id>60a5bf38835c52502740f496feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:59</sys_created_on>
+        <sys_id>f9406e9483e092942740f496feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</table>
+        <value>{{action.main_table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>60a5bf38835c52502740f496feaad35e</id>
         <sys_created_by>admin</sys_created_by>
@@ -1800,7 +2498,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_60a5bf38835c52502740f496feaad35e^id=60a5bf38835c52502740f496feaad35e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=60a5bf38835c52502740f496feaad35e"/>
     <sys_translated_text action="delete_multiple" query="documentkey=60a5bf38835c52502740f496feaad35e"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=60a5bf38835c52502740f496feaad35e^sys_idNOT IN004b373c839c52502740f496feaad304,733bf33c839c52502740f496feaad3d0,b73bf33c839c52502740f496feaad3da,bb3bf33c839c52502740f496feaad3d5,e0a5bf38835c52502740f496feaad375"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=60a5bf38835c52502740f496feaad35e^sys_idNOT IN004b373c839c52502740f496feaad304,1fab0fb583581a902740f496feaad3d4,3d406e9483e092942740f496feaad3cb,53ab0fb583581a902740f496feaad3e6,733bf33c839c52502740f496feaad3d0,b73bf33c839c52502740f496feaad3da,bb3bf33c839c52502740f496feaad3d5,e0a5bf38835c52502740f496feaad375"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1872,6 +2570,255 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-26 13:07:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issuperuser</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>issuperuser</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">60a5bf38835c52502740f496feaad35e</model>
+        <model_id>60a5bf38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>500</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:47</sys_created_on>
+        <sys_id>1fab0fb583581a902740f496feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>maintable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>maintable</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">60a5bf38835c52502740f496feaad35e</model>
+        <model_id>60a5bf38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>700</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:59</sys_created_on>
+        <sys_id>3d406e9483e092942740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catatlogtaskdesc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>catatlogtaskdesc</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">60a5bf38835c52502740f496feaad35e</model>
+        <model_id>60a5bf38835c52502740f496feaad35e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_60a5bf38835c52502740f496feaad35e</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:47</sys_created_on>
+        <sys_id>53ab0fb583581a902740f496feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2325,7 +3272,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=e0a5bf38835c52502740f496feaad34b^sys_idNOT IN3b3bf33c839c52502740f496feaad3ac,64a5bf38835c52502740f496feaad354,68a5bf38835c52502740f496feaad34f,bb3bf33c839c52502740f496feaad38e,e4a5bf38835c52502740f496feaad358"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e0a5bf38835c52502740f496feaad34b^sys_idNOT IN3b3bf33c839c52502740f496feaad3ac,5fab0fb583581a902740f496feaad3b7,64a5bf38835c52502740f496feaad354,68a5bf38835c52502740f496feaad34f,b9406e9483e092942740f496feaad37b,bb3bf33c839c52502740f496feaad38e,dbab0fb583581a902740f496feaad3b2,e4a5bf38835c52502740f496feaad358"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2410,6 +3357,90 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3b3bf33c839c52502740f496feaad3ac"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b8dff4f4-e2a7-4b89-994f-be994c5d3386</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>catalogtaskdescription</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CatalogTaskDescription</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sub Tabs Status Updation">e0a5bf38835c52502740f496feaad34b</model>
+        <model_id>e0a5bf38835c52502740f496feaad34b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:46</sys_created_on>
+        <sys_id>5fab0fb583581a902740f496feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5fab0fb583581a902740f496feaad3b7"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2582,6 +3613,90 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d7cec148-d9bc-4421-b00e-333644de14db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>main_table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Main Table</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sub Tabs Status Updation">e0a5bf38835c52502740f496feaad34b</model>
+        <model_id>e0a5bf38835c52502740f496feaad34b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:58</sys_created_on>
+        <sys_id>b9406e9483e092942740f496feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9406e9483e092942740f496feaad37b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7a13f169-3f20-4d81-b772-1af7990286fc</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -2662,6 +3777,90 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bb3bf33c839c52502740f496feaad38e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=0386b907-ea4e-4f4f-9217-3e154e296714</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>issuperuser</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>IsSuperUser</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sub Tabs Status Updation">e0a5bf38835c52502740f496feaad34b</model>
+        <model_id>e0a5bf38835c52502740f496feaad34b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:46</sys_created_on>
+        <sys_id>dbab0fb583581a902740f496feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dbab0fb583581a902740f496feaad3b2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2812,14 +4011,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 12:43:10</sys_created_on>
         <sys_id>38a5bf38835c52502740f496feaad395</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-26 13:07:42</sys_updated_on>
+        <sys_updated_on>2024-09-06 04:14:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2933,7 +4132,7 @@
         <sys_updated_on>2024-08-26 12:43:10</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=38a5bf38835c52502740f496feaad3b8"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b^sys_idNOT IN64a5bf38835c52502740f496feaad353,68a5bf38835c52502740f496feaad35b,733bf33c839c52502740f496feaad3ab,733bf33c839c52502740f496feaad3b0,e4a5bf38835c52502740f496feaad357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b^sys_idNOT IN64a5bf38835c52502740f496feaad353,68a5bf38835c52502740f496feaad35b,733bf33c839c52502740f496feaad3ab,733bf33c839c52502740f496feaad3b0,97ab0fb583581a902740f496feaad3b6,d7ab0fb583581a902740f496feaad3bb,e4a5bf38835c52502740f496feaad357,fd406e9483e092942740f496feaad37e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>fieldname</element>
         <help/>
@@ -3027,6 +4226,52 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>issuperuser</element>
+        <help/>
+        <hint/>
+        <label>IsSuperUser</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:46</sys_created_on>
+        <sys_id>97ab0fb583581a902740f496feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>catalogtaskdescription</element>
+        <help/>
+        <hint/>
+        <label>CatalogTaskDescription</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 12:13:46</sys_created_on>
+        <sys_id>d7ab0fb583581a902740f496feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:13:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>fieldvalue</element>
         <help/>
         <hint/>
@@ -3046,6 +4291,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-26 13:07:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>main_table</element>
+        <help/>
+        <hint/>
+        <label>Main Table</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e0a5bf38835c52502740f496feaad34b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 03:28:58</sys_created_on>
+        <sys_id>fd406e9483e092942740f496feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 03:28:58</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

@@ -3,11 +3,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:55</sys_created_on>
-            <sys_id>59946f0483609e542740f496feaad383</sys_id>
+            <sys_created_on>2024-09-05 15:47:54</sys_created_on>
+            <sys_id>54df7788832c9e542740f496feaad3b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:55</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:54</sys_updated_on>
             <text>Account Information</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
@@ -15,27 +15,27 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:55</sys_created_on>
-            <sys_id>dd94e78c83609e542740f496feaad384</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>dcdff788832c9e542740f496feaad36a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">15171774839052502740f496feaad3cc</sys_ui_formatter>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:55</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>59946f0483609e542740f496feaad383</element>
+            <element>54df7788832c9e542740f496feaad3b8</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:55</sys_created_on>
-            <sys_id>1194e78c83609e542740f496feaad386</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>10dff788832c9e542740f496feaad36c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:55</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>.begin_split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:55</sys_created_on>
-            <sys_id>1994e78c83609e542740f496feaad386</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>18dff788832c9e542740f496feaad36c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:55</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>number</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>1194e78c83609e542740f496feaad387</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>10dff788832c9e542740f496feaad36d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -71,13 +71,13 @@
             <element>customer_name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>1994e78c83609e542740f496feaad387</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>18dff788832c9e542740f496feaad36d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -85,13 +85,13 @@
             <element>accountid</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>1194e78c83609e542740f496feaad388</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>54dff788832c9e542740f496feaad393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -99,13 +99,13 @@
             <element>account_category</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>1994e78c83609e542740f496feaad388</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>5cdff788832c9e542740f496feaad393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -113,13 +113,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>1194e78c83609e542740f496feaad389</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>54dff788832c9e542740f496feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -127,13 +127,13 @@
             <element>account_type</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>dd94e78c83609e542740f496feaad395</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>5cdff788832c9e542740f496feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -141,13 +141,13 @@
             <element>account_verification</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>d594e78c83609e542740f496feaad396</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>54dff788832c9e542740f496feaad395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -155,13 +155,13 @@
             <element>account_approval</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>dd94e78c83609e542740f496feaad396</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>5cdff788832c9e542740f496feaad395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -169,13 +169,13 @@
             <element>u_account_status</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>d594e78c83609e542740f496feaad397</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>54dff788832c9e542740f496feaad396</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -183,29 +183,15 @@
             <element>active</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>dd94e78c83609e542740f496feaad397</sys_id>
+            <sys_created_on>2024-09-05 15:47:55</sys_created_on>
+            <sys_id>5cdff788832c9e542740f496feaad396</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:47:55</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>REL.x_1107692_banking_accountant.REL:f2d18478835cda102740f496feaad3b4</element>
-            <position>13</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 13:48:56</sys_created_on>
-            <sys_id>d594e78c83609e542740f496feaad398</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Account" display_value="Account" name="x_1107692_banking_accountant" sys_domain="global" view="Default view">a1b7db3c839052502740f496feaad3ae</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 13:48:56</sys_updated_on>
-            <sys_user/>
-            <type>list</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Account</caption>

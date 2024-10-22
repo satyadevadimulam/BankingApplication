@@ -45,16 +45,44 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-01 09:15:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d76fd06483c916542740f496feaad3da</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_customer" name="x_1107692_banking_customer" sys_domain="global" view="Default view">c268e7288314da102740f496feaad342</sys_ui_form>
+            <sys_ui_section caption="High Comments" display_value="High Comments" name="x_1107692_banking_customer" sys_domain="global" view="Default view">9b6f506483c916542740f496feaad3a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-01 09:15:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-01 09:18:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3efd46883c916542740f496feaad3ae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_customer" name="x_1107692_banking_customer" sys_domain="global" view="Default view">c268e7288314da102740f496feaad342</sys_ui_form>
+            <sys_ui_section caption="High Check" display_value="High Check" name="x_1107692_banking_customer" sys_domain="global" view="Default view">cfefd46883c916542740f496feaad3a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-01 09:18:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-23 05:56:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ac156abd8330d6502740f496feaad390</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1107692_banking_customer" name="x_1107692_banking_customer" sys_domain="global" view="Default view">c268e7288314da102740f496feaad342</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1107692_banking_customer" sys_domain="global" view="Default view">28156abd8330d6502740f496feaad38c</sys_ui_section>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_1107692_banking_customer" sys_domain="global" view="Default view">28156abd8330d6502740f496feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-23 05:56:30</sys_updated_on>
+            <sys_updated_on>2024-10-01 09:18:04</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1107692_banking_customer</name>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b1ee6a1839092902740f496feaad3fc" label="Benefeciary" max_length="40" name="x_1107692_banking_benefeciary" type="collection">
+        <element label="Benefeciary Id" max_length="10" name="benefeciary_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="To Bank IFSC code" max_length="40" name="to_bank_ifsc_code" type="string"/>
+        <element label="To Account Number" mandatory="true" max_length="40" name="to_account_number" type="integer"/>
+        <element label="To Account name" mandatory="true" max_length="40" name="to_account_name" type="string"/>
+        <element label="From Account Number" max_length="40" name="from_account_number" type="integer"/>
+        <element label="Benefeciary name" max_length="32" name="benefeciary_name" reference="x_1107692_banking_customer" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="InActive" sequence="1" value="inactive"/>
+                <element inactive_on_update="false" label="Hold" sequence="2" value="hold"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+            </choice>
+        </element>
+        <element label="from account name" max_length="32" name="from_account_name" reference="x_1107692_banking_customer" type="reference"/>
+        <index name="index">
+            <element name="benefeciary_name"/>
+        </index>
+        <index name="index2">
+            <element name="from_account_name"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

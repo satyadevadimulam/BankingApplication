@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-26 16:16:20</sys_created_on>
-        <sys_id>9706a80d83d892502740f496feaad300</sys_id>
         <sys_name>Branch Name</sys_name>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
         <sys_policy/>

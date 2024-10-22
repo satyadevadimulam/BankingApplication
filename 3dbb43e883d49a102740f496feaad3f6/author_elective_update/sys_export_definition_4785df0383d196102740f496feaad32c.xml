@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="DELETE">
+        <field_list>customerid,account_type,dob,account_verification,salutation,sys_created_on,number,u_account_status,sys_created_by,sys_id</field_list>
+        <filter/>
+        <name>abc</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:26:35</sys_created_on>
+        <sys_id>4785df0383d196102740f496feaad32c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>abc</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_export_definition_4785df0383d196102740f496feaad32c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:27:07</sys_updated_on>
+        <table_name>x_1107692_banking_accountant</table_name>
+        <view display_value="Exp_d4785df0383d196102740f496feaad32c" name="exp_d4785df0383d196102740f496feaad32c">5696a7c783d196102740f496feaad3f3</view>
+    </sys_export_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_export_definition_4785df0383d196102740f496feaad32c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition"><sys_export_definition action="INSERT_OR_UPDATE"><field_list>customerid,account_type,dob,account_verification,salutation,sys_created_on,number,u_account_status,sys_created_by,sys_id</field_list><filter/><name>abc</name><sys_class_name>sys_export_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 04:26:35</sys_created_on><sys_id>4785df0383d196102740f496feaad32c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>abc</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sys_export_definition_4785df0383d196102740f496feaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 04:27:07</sys_updated_on><table_name>x_1107692_banking_accountant</table_name><view display_value="Exp_d4785df0383d196102740f496feaad32c" name="exp_d4785df0383d196102740f496feaad32c">5696a7c783d196102740f496feaad3f3</view></sys_export_definition></record_update>]]></payload>
+        <payload_hash>-874183213</payload_hash>
+        <record_name>abc</record_name>
+        <reverted_from/>
+        <source>ad477bf8835c52502740f496feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 04:27:07</sys_created_on>
+        <sys_id>8eb6e747831596102740f496feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b27a86750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 04:27:07</sys_updated_on>
+        <type>Export Definition</type>
+        <update_guid>46b6e7474c1596108f5845dc8de36e36</update_guid>
+        <update_guid_history>46b6e7474c1596108f5845dc8de36e36:-874183213,ea962747e1159610ffc6e095ce7f158d:-1874492544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:31:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_export_definition">sys_export_definition</sys_db_object>
+        <sys_id>16b8c21a92554200b574e4fe1d2c6240</sys_id>
+        <sys_metadata>4785df0383d196102740f496feaad32c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abc</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_export_definition_4785df0383d196102740f496feaad32c</sys_update_name>
+        <sys_update_version display_value="sys_export_definition_4785df0383d196102740f496feaad32c">8eb6e747831596102740f496feaad336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:31:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

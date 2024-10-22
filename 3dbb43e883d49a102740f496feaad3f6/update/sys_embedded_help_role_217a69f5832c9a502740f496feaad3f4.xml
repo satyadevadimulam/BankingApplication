@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1107692_banking.benefeciary_field_level_access" name="x_1107692_banking.benefeciary_field_level_access">7d6ae1fd832c9a502740f496feaad3b6</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 15:24:44</sys_created_on>
+        <sys_id>217a69f5832c9a502740f496feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7d6ae1fd832c9a502740f496feaad3b6</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_217a69f5832c9a502740f496feaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 15:24:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

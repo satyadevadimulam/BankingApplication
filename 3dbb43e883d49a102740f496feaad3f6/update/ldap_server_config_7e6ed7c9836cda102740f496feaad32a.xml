@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>cn=read-only-admin,dc=example,dc=com</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>Demo1</name>
+        <paging>true</paging>
+        <password>﷞﷟﷒2f630178832012102740f496feaad388﷬﷔1﷬﷭0G-NHvNoxmplbEog5HzK7A==1tWa95jQviZ3t-D0_MFaZ1molvMH2nZj﷮﷯</password>
+        <rdn>dc=example,dc=com</rdn>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ldap.forumsys.com</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-08 15:58:46</sys_created_on>
+        <sys_id>7e6ed7c9836cda102740f496feaad32a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demo1</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>ldap_server_config_7e6ed7c9836cda102740f496feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-08 16:09:53</sys_updated_on>
+        <system_id>app131022.aus191.service-now.com:dev283573001</system_id>
+        <vendor>other</vendor>
+    </ldap_server_config>
+</record_update>

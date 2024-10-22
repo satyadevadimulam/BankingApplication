@@ -75,16 +75,16 @@
         <table>x_1107692_banking_customer</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>c2f5410583fc92102740f496feaad339</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-21 10:45:15</sys_created_on>
         <sys_id>bef3959183f05a102740f496feaad3e3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-21 10:45:15</sys_updated_on>
+        <sys_updated_on>2024-09-21 13:10:11</sys_updated_on>
         <trigger display_value="">774f49dd83fc1a102740f496feaad399</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c2f5410583fc92102740f496feaad339^sys_idNOT INbef3959183f05a102740f496feaad3e3"/>

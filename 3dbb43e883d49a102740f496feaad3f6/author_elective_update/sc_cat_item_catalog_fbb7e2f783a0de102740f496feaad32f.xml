@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Loan Application">f2676a3783a0de102740f496feaad355</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 01:00:20</sys_created_on>
+        <sys_id>fbb7e2f783a0de102740f496feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Loan Application</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fbb7e2f783a0de102740f496feaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 01:00:20</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sc_cat_item_catalog_fbb7e2f783a0de102740f496feaad32f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Loan Application">f2676a3783a0de102740f496feaad355</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-17 01:00:20</sys_created_on><sys_id>fbb7e2f783a0de102740f496feaad32f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Loan Application</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sc_cat_item_catalog_fbb7e2f783a0de102740f496feaad32f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-17 01:00:20</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-259620512</payload_hash>
+        <record_name>Service Catalog.Loan Application</record_name>
+        <reverted_from/>
+        <source>7cf1e45f832012102740f496feaad3d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-17 01:00:20</sys_created_on>
+        <sys_id>b3b7e2f783a0de102740f496feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191fd7ea38a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-17 01:00:20</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b7b7e2f7b7a0de10a34bd7692b70ae32</update_guid>
+        <update_guid_history>b7b7e2f7b7a0de10a34bd7692b70ae32:-259620512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Loan Application">6deb2813839996102740f496feaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:29:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>169162b123a14800911cf8f1c694c440</sys_id>
+        <sys_metadata>fbb7e2f783a0de102740f496feaad32f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Loan Application</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">f2676a3783a0de102740f496feaad355</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_fbb7e2f783a0de102740f496feaad32f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_fbb7e2f783a0de102740f496feaad32f">b3b7e2f783a0de102740f496feaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:29:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

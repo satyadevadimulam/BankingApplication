@@ -10,23 +10,79 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">a4584177831c16542740f496feaad371</sys_ui_section>
+            <sys_ui_section caption="Loan Account" display_value="Loan Account" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">a4584177831c16542740f496feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-09-04 07:47:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-06 06:35:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7da879883a0d2942740f496feaad32c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
+            <sys_ui_section caption="Credit Verification" display_value="Credit Verification" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">4bda479883a0d2942740f496feaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-06 06:35:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-06 06:33:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad7a43d483a0d2942740f496feaad339</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
+            <sys_ui_section caption="Document Verification" display_value="Document Verification" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">957acf9483a0d2942740f496feaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-06 06:33:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-06 06:35:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7da879883a0d2942740f496feaad33d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
+            <sys_ui_section caption="Amount Verification" display_value="Amount Verification" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">4bda479883a0d2942740f496feaad3cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-06 06:35:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 15:06:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e56774c83289e542740f496feaad32c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
+            <sys_ui_section caption="Related Loan Details" display_value="Related Loan Details" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">2256774c83289e542740f496feaad304</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 15:06:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-03 17:39:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fc460e6b835412542740f496feaad336</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1107692_banking_ticket" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad331</sys_ui_form>
-            <sys_ui_section caption="info providing section" display_value="info providing section" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad32f</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1107692_banking_ticket" sys_domain="global" view="Default view">7c460e6b835412542740f496feaad32f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-03 17:39:52</sys_updated_on>
+            <sys_updated_on>2024-09-05 15:06:34</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1107692_banking_ticket</name>

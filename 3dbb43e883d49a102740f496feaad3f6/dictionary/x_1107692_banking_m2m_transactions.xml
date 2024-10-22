@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5857a41d83981a502740f496feaad365" label="Transactions" max_length="40" name="x_1107692_banking_m2m_transactions" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Customer Name" max_length="32" name="customer_name" reference="x_1107692_banking_customer" type="reference"/>
+        <element default="javascript: gs.generateGUID();" label="Transactional Id" max_length="40" name="number" type="string"/>
+        <element label="Account To" max_length="32" name="account_to" reference="x_1107692_banking_accountant" type="reference"/>
+        <element attributes="encode_utf8=false" label="Account From" max_length="32" name="x_1107692_banking_accountant" reference="x_1107692_banking_accountant" type="reference"/>
+        <element choice="1" label="Transaction Type" max_length="40" name="transaction_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit" value="1"/>
+                <element inactive_on_update="false" label="Withdraw" value="2"/>
+                <element inactive_on_update="false" label="Loan" value="4"/>
+                <element inactive_on_update="false" label="Transfer" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="account_to"/>
+        </index>
+        <index name="index2">
+            <element name="customer_name"/>
+        </index>
+        <index name="index3">
+            <element name="x_1107692_banking_accountant"/>
+        </index>
+    </element>
+</database>

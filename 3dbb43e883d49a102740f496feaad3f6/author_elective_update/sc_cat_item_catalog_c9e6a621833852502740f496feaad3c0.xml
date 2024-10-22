@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Mahesh Demo">9f466ee983f452502740f496feaad35a</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:25:57</sys_created_on>
+        <sys_id>c9e6a621833852502740f496feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Mahesh Demo</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c9e6a621833852502740f496feaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:25:57</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sc_cat_item_catalog_c9e6a621833852502740f496feaad3c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Mahesh Demo">9f466ee983f452502740f496feaad35a</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-22 11:25:57</sys_created_on><sys_id>c9e6a621833852502740f496feaad3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Mahesh Demo</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sc_cat_item_catalog_c9e6a621833852502740f496feaad3c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-22 11:25:57</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1345329227</payload_hash>
+        <record_name>Service Catalog.Mahesh Demo</record_name>
+        <reverted_from/>
+        <source>ce26a2a983f452502740f496feaad3ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:25:57</sys_created_on>
+        <sys_id>49e6a621833852502740f496feaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192197b35510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:25:57</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4de6a621fe3852501b2b66943aca38c3</update_guid>
+        <update_guid_history>4de6a621fe3852501b2b66943aca38c3:1345329227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Mahesh Demo">d7db6413839996102740f496feaad3b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:29:12</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1725c4c3130b48798d26d3994ad0e8c1</sys_id>
+        <sys_metadata>c9e6a621833852502740f496feaad3c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Mahesh Demo</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">9f466ee983f452502740f496feaad35a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c9e6a621833852502740f496feaad3c0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c9e6a621833852502740f496feaad3c0">49e6a621833852502740f496feaad3c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:29:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

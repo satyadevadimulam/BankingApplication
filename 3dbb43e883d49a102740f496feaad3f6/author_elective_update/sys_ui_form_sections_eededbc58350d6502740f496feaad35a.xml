@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="eededbc58350d6502740f496feaad35a" sys_domain="global" table="x_1107692_banking_benefeciary" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ededbc58350d6502740f496feaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">2adedbc58350d6502740f496feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62dedbc58350d6502740f496feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">66dedbc58350d6502740f496feaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eededbc58350d6502740f496feaad369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form>
+            <sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">e2dedbc58350d6502740f496feaad364</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1107692_banking_benefeciary</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-27 05:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eededbc58350d6502740f496feaad35a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1107692_banking_benefeciary</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_eededbc58350d6502740f496feaad35a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-27 05:42:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_ui_form_sections_eededbc58350d6502740f496feaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="eededbc58350d6502740f496feaad35a" sys_domain="global" table="x_1107692_banking_benefeciary" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6ededbc58350d6502740f496feaad363</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">2adedbc58350d6502740f496feaad35d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:07</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>62dedbc58350d6502740f496feaad370</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">66dedbc58350d6502740f496feaad36a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:07</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eededbc58350d6502740f496feaad369</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1107692_banking_benefeciary" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">eededbc58350d6502740f496feaad35a</sys_ui_form><sys_ui_section caption="Government Proofs" display_value="Government Proofs" name="x_1107692_banking_benefeciary" sys_domain="global" view="Default view">e2dedbc58350d6502740f496feaad364</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:07</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1107692_banking_benefeciary</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-27 05:42:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eededbc58350d6502740f496feaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107692_banking_benefeciary</sys_name><sys_overrides/><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sys_ui_form_sections_eededbc58350d6502740f496feaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-27 05:42:06</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-995691292</payload_hash>
+        <record_name>Benefeciary</record_name>
+        <reverted_from/>
+        <source>b314d7ec83d89a102740f496feaad386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 05:42:07</sys_created_on>
+        <sys_id>eededbc58350d6502740f496feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191925b10e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 05:42:07</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>a6dedbc53c50d650a4ef1fe0a79faf71</update_guid>
+        <update_guid_history>a6dedbc53c50d650a4ef1fe0a79faf71:-995691292,66dedbc59650d6507259548b52400f5c:1111750641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 14:50:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>9896cf44fe0e43dcac8380e03db6b351</sys_id>
+        <sys_metadata>eededbc58350d6502740f496feaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking_benefeciary</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">e186e849839492502740f496feaad3e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_eededbc58350d6502740f496feaad35a</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_eededbc58350d6502740f496feaad35a">eededbc58350d6502740f496feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 14:50:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

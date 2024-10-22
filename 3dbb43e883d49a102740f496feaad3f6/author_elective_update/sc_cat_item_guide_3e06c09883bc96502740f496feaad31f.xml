@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>true</cascade>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>true</include_items>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>Bank</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Demo Order Guide</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=3e06c09883bc96502740f496feaad31f&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 02:32:50</sys_created_on>
+        <sys_id>3e06c09883bc96502740f496feaad31f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Demo Order Guide</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sc_cat_item_guide_3e06c09883bc96502740f496feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:30:01</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <two_step>false</two_step>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <version>12</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="DELETE" query="documentkey=3e06c09883bc96502740f496feaad31f"/>
+    <fx_price action="DELETE" query="id=3e06c09883bc96502740f496feaad31f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>3e06c09883bc96502740f496feaad31f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 02:32:50</sys_created_on>
+        <sys_id>a4860c9c83bc96502740f496feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 02:32:50</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sc_cat_item_guide_3e06c09883bc96502740f496feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide"><sc_cat_item_guide action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><cascade>true</cascade><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><include_items>true</include_items><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta>Bank</meta><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Demo Order Guide</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><order_to_cart>false</order_to_cart><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=3e06c09883bc96502740f496feaad31f&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><script/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item_guide</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 02:32:50</sys_created_on><sys_id>3e06c09883bc96502740f496feaad31f</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Demo Order Guide</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_update_name>sc_cat_item_guide_3e06c09883bc96502740f496feaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 09:30:01</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><two_step>false</two_step><type>item</type><use_sc_layout>true</use_sc_layout><validator/><vendor/><version>12</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item_guide><sys_translated_text action="delete_multiple" query="documentkey=3e06c09883bc96502740f496feaad31f"/><fx_price action="delete_multiple" query="id=3e06c09883bc96502740f496feaad31f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>3e06c09883bc96502740f496feaad31f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 02:32:50</sys_created_on><sys_id>a4860c9c83bc96502740f496feaad323</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 02:32:50</sys_updated_on><table>sc_cat_item_guide</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1003289150</payload_hash>
+        <record_name>Demo Order Guide</record_name>
+        <reverted_from/>
+        <source>ad477bf8835c52502740f496feaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:30:02</sys_created_on>
+        <sys_id>d30c2c53839996102740f496feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b38fda560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:30:02</sys_updated_on>
+        <type>Order guide</type>
+        <update_guid>5b0c2c530999961003645e704c4cd70c</update_guid>
+        <update_guid_history>5b0c2c530999961003645e704c4cd70c:1003289150,155cc01ccd70d65086a96bd2a4c1f70b:-1955374012,abd888503030d6506e5019e61093882d:-1998834393,0668885c81fc96502fec0b3218de7a77:-610375450,3ff7881890fc96509e72126289a4bf8f:778083493,d0d788183bfc9650a2ba97d9dc9fa7ff:-2128424860,33b788d495fc9650c6be4010fbd0df46:-739965917,7687c49400fc96507452cbdc5d8fe816:648493026,da77809453fc96500f4ffac596f6029b:2036951969,0fd6485c8bbc9650bf9c8165c5a11d44:-869556384,74860c9ca8bc9650feff9c54b262a06d:518902559,f4860c9c96bc9650618232215f98e74e:595755389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo Order Guide">970c2c53839996102740f496feaad310</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 09:30:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_guide">sc_cat_item_guide</sys_db_object>
+        <sys_id>5944f15ce5d84ef3bf9a00a3d63483f9</sys_id>
+        <sys_metadata>3e06c09883bc96502740f496feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Order Guide</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sc_cat_item_guide_3e06c09883bc96502740f496feaad31f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_guide_3e06c09883bc96502740f496feaad31f">d30c2c53839996102740f496feaad30d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 09:30:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

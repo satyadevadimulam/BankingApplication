@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1107692_banking.ValidateEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ValidateEmailAddress</name>
+        <script><![CDATA[function validateEmailAddress(emailStr){
+    // Use JavaScript coercion to guarantee emailStr is a string
+    emailStr = emailStr + '';
+    // Compare emailStr against the allowed syntax as specified in the regular expression
+    // If emailStr has allowed syntax, return true, else return false
+    if(emailStr.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+      return true;
+    }
+    else {
+     return false;
+    }
+  }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:15:17</sys_created_on>
+        <sys_id>57936bb88345de542740f496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ValidateEmailAddress</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_update_name>sys_script_include_57936bb88345de542740f496feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:15:17</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_script_include_57936bb88345de542740f496feaad3cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1107692_banking.ValidateEmailAddress&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ValidateEmailAddress&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function validateEmailAddress(emailStr){
+    // Use JavaScript coercion to guarantee emailStr is a string
+    emailStr = emailStr + '';
+    // Compare emailStr against the allowed syntax as specified in the regular expression
+    // If emailStr has allowed syntax, return true, else return false
+    if(emailStr.match(/^(([^&lt;&gt;()\[\]\\.,;:\s@"]+(\.[^&lt;&gt;()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+      return true;
+    }
+    else {
+     return false;
+    }
+  }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-02 18:15:17&lt;/sys_created_on&gt;&lt;sys_id&gt;57936bb88345de542740f496feaad3cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ValidateEmailAddress&lt;/sys_name&gt;&lt;sys_package display_value="Banking Application" source="x_1107692_banking"&gt;3dbb43e883d49a102740f496feaad3f6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Banking Application"&gt;3dbb43e883d49a102740f496feaad3f6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_57936bb88345de542740f496feaad3cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-02 18:15:17&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2037469121</payload_hash>
+        <record_name>ValidateEmailAddress</record_name>
+        <reverted_from/>
+        <source>111427708305de542740f496feaad387</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:15:18</sys_created_on>
+        <sys_id>2674a7f08385de542740f496feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924e718fe10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:15:18</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>2a74a7f0ff85de54066f73cf434d659b</update_guid>
+        <update_guid_history>2a74a7f0ff85de54066f73cf434d659b:-2037469121</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 18:15:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3880c48004864f26a86ac6dfdb824181</sys_id>
+        <sys_metadata>57936bb88345de542740f496feaad3cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ValidateEmailAddress</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_script_include_57936bb88345de542740f496feaad3cb</sys_update_name>
+        <sys_update_version display_value="sys_script_include_57936bb88345de542740f496feaad3cb">2674a7f08385de542740f496feaad39c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 18:15:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

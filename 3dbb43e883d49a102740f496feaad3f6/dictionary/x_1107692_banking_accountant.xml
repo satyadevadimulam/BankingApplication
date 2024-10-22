@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="bc27b5bc831c9e102740f496feaad317" extends="x_1107692_banking_customer" label="Account" max_length="40" name="x_1107692_banking_accountant" type="collection">
+        <element choice="1" label="Personal Verification Status" max_length="40" name="personal_verification" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Completed" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="New" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Balance" max_length="20" name="balance" type="price"/>
+        <element attributes="ref_contributions=user_show_transactions" label="Customer Name" mandatory="true" max_length="32" name="customer_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" display="true" label="Account Type" mandatory="true" max_length="40" name="account_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Current" value="0"/>
+                <element inactive_on_update="false" label="Savings" value="1"/>
+            </choice>
+        </element>
+        <element label="Branch Address" max_length="32" name="branch_address" reference="cmn_location" type="reference"/>
+        <element label="Personal Detail Approval" max_length="255" name="personal_detail_approval" read_only="true" type="string_full_utf8"/>
+        <element label="Finance  Details Approval" max_length="255" name="finance_approval_status" read_only="true" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Creation Date" max_length="40" name="account_creation_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Recurring Balance" max_length="20" name="recurring_balance" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Fixed Deposites" max_length="20" name="fixed_deposite" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Status" max_length="40" name="u_account_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Below 1 Year Inactive" sequence="3" value="below 1 year inactive"/>
+                <element inactive_on_update="false" label="Operational" sequence="0" value="operational"/>
+                <element inactive_on_update="false" label="Retired" sequence="1" value="retired"/>
+                <element inactive_on_update="false" label="Above 1 Year Inactive" sequence="2" value="above 1 year inactive"/>
+            </choice>
+        </element>
+        <element choice="1" default="main" label="Account Category" max_length="40" name="account_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Child" value="child"/>
+                <element inactive_on_update="false" label="Main" value="main"/>
+            </choice>
+        </element>
+        <element label="Govt Details Approval" max_length="255" name="govt_details_approval" read_only="true" type="string_full_utf8"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element choice="1" default="0" label="Account Verification" max_length="40" name="account_verification" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Completed" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="50" value="0"/>
+            </choice>
+        </element>
+        <element default="Black" label="Account Indicator" max_length="255" name="account_approval" read_only="true" type="color"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Due Payment" max_length="20" name="due_payment" type="price"/>
+        <element choice="1" label="Finance Verification Status" max_length="40" name="finance_verification_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Work in Progress" value="2"/>
+                <element inactive_on_update="false" label="Cancelled" value="4"/>
+                <element inactive_on_update="false" label="Completed" value="3"/>
+                <element inactive_on_update="false" label="New" value="1"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="User Currency" max_length="20" name="user_currency" type="currency"/>
+        <element label="Parent Account" max_length="32" name="parent_account" reference="x_1107692_banking_accountant" type="reference"/>
+        <element choice="1" label="Goverment Verification Status" max_length="40" name="goverment_verification" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Completed" sequence="300" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_journal_1" type="journal"/>
+        <element label="AccountId" max_length="32" name="accountid" read_only="true" type="string_full_utf8"/>
+        <index name="index">
+            <element name="branch_address"/>
+        </index>
+        <index name="index2">
+            <element name="customer_name"/>
+        </index>
+        <index name="index3">
+            <element name="parent_account"/>
+        </index>
+    </element>
+</database>

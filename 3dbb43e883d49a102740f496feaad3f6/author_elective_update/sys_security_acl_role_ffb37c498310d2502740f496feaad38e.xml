@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 17:14:32</sys_created_on>
+        <sys_id>ffb37c498310d2502740f496feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking_user_actions.x_1107692_banking.user_actions_user</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_security_acl display_value="x_1107692_banking_user_actions">3fb37c498310d2502740f496feaad38b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ffb37c498310d2502740f496feaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-26 17:14:32</sys_updated_on>
+        <sys_user_role display_value="x_1107692_banking.user_actions_user" name="x_1107692_banking.user_actions_user">a7b3b4498310d2502740f496feaad34d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</application>
+        <file_path/>
+        <instance_id>18f145dc3b334218a36804e0b5e45a99</instance_id>
+        <instance_name>dev283573</instance_name>
+        <name>sys_security_acl_role_ffb37c498310d2502740f496feaad38e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-26 17:14:32</sys_created_on><sys_id>ffb37c498310d2502740f496feaad38e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1107692_banking_user_actions.x_1107692_banking.user_actions_user</sys_name><sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package><sys_policy/><sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope><sys_security_acl display_value="x_1107692_banking_user_actions">3fb37c498310d2502740f496feaad38b</sys_security_acl><sys_update_name>sys_security_acl_role_ffb37c498310d2502740f496feaad38e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-26 17:14:32</sys_updated_on><sys_user_role display_value="x_1107692_banking.user_actions_user" name="x_1107692_banking.user_actions_user">a7b3b4498310d2502740f496feaad34d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1883225564</payload_hash>
+        <record_name>x_1107692_banking_user_actions.x_1107692_banking.user_actions_user</record_name>
+        <reverted_from/>
+        <source>ba912939831096902740f496feaad36e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-26 17:14:32</sys_created_on>
+        <sys_id>3fb37c498310d2502740f496feaad391</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1918faea35a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 04:30:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>33b37c495f10d25090ff07cb91bf2191</update_guid>
+        <update_guid_history>33b37c495f10d25090ff07cb91bf2191:-1883225564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1107692_banking_user_actions.x_1107692_banking.user_actions_user">3c172c1d83981a502740f496feaad34f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-27 10:57:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>c38495db303a4a3e963c41253fba7701</sys_id>
+        <sys_metadata>ffb37c498310d2502740f496feaad38e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1107692_banking_user_actions.x_1107692_banking.user_actions_user</sys_name>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_parent display_value="">3fb37c498310d2502740f496feaad38b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
+        <sys_scope_delete display_value="">05952b52d5804e948319a05bdbe74899</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ffb37c498310d2502740f496feaad38e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ffb37c498310d2502740f496feaad38e">3fb37c498310d2502740f496feaad391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-27 10:57:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

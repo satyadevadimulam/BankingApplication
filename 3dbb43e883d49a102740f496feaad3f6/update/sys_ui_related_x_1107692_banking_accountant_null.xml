@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_1107692_banking_accountant" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Accountant - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
+            <list_id display_value="Account - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:f2d18478835cda102740f496feaad3b4</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Accountant - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
+            <list_id display_value="Account - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
@@ -30,7 +30,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Accountant - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
+            <list_id display_value="Account - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
             <order_by/>
             <position>2</position>
             <related_list>x_1107692_banking_accountant.parent_account</related_list>
@@ -44,7 +44,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Accountant - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
+            <list_id display_value="Account - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
             <order_by/>
             <position>3</position>
             <related_list>REL:745a6b30839852502740f496feaad3b5</related_list>
@@ -58,7 +58,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Accountant - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
+            <list_id display_value="Account - Default view" name="x_1107692_banking_accountant" related_list="NULL" sys_domain="global" view="Default view">418ca7b083d852502740f496feaad3eb</list_id>
             <order_by/>
             <position>4</position>
             <related_list>REL:e55c673083d852502740f496feaad388</related_list>
@@ -71,7 +71,7 @@
             <sys_updated_on>2024-08-26 12:03:19</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Accountant - Default view</calculated_name>
+            <calculated_name>Account - Default view</calculated_name>
             <filter/>
             <name>x_1107692_banking_accountant</name>
             <order_by/>

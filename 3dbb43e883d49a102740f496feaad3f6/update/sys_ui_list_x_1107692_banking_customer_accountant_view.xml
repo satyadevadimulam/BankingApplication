@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1107692_banking_customer" version="2" view="accountant_view">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1107692_banking_customer" version="2" view="Accountant_View">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>

@@ -12,14 +12,11 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
-	alert("sathish is back");
-	alert(newValue);
       return;
    }
 
    if( newValue == '2')
    {
-	   alert("Mahesh is back");
 	   g_form.setMandatory('work_notes',true);
 	   g_form.setVisible('branch_name',true);
 	   g_form.setReadOnly('branch_status',true);
@@ -34,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dbea12d283f092902740f496feaad35e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>On change state is work in progress</sys_name>
         <sys_overrides/>
         <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
@@ -42,7 +39,7 @@
         <sys_scope display_value="Banking Application">3dbb43e883d49a102740f496feaad3f6</sys_scope>
         <sys_update_name>sys_script_client_dbea12d283f092902740f496feaad35e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-24 19:06:53</sys_updated_on>
+        <sys_updated_on>2024-09-24 19:09:35</sys_updated_on>
         <table>x_1107692_banking_new_branch</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

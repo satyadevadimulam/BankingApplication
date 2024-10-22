@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">537b73e2f832021008dd9cfea425ac05</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 06:39:13</sys_created_on>
+        <sys_id>a8db879083e0d2942740f496feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Banking Application" source="x_1107692_banking">3dbb43e883d49a102740f496feaad3f6</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 06:39:13</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

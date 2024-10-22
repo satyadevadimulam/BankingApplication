@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8c847869833c9e102740f496feaad391" extends="task" label="New branch" max_length="40" name="x_1107692_banking_new_branch" type="collection">
+        <element label="Branch description" max_length="40" name="branch_description" type="string"/>
+        <element label="Branch Place" max_length="40" name="branch_place" type="string"/>
+        <element label="Branch Name" max_length="40" name="branch_name" type="string"/>
+        <element label="Branch status" max_length="40" name="branch_status" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0180a3a88310da102740f496feaad361" label="Customer" max_length="40" name="x_1107692_banking_customer" type="collection">
+        <element label="DOB" mandatory="true" max_length="40" name="dob" type="calendar_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Customer First Name" max_length="10" name="customer_first_name" type="string"/>
+        <element choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" value="2"/>
+                <element inactive_on_update="false" label="Medium" value="1"/>
+                <element inactive_on_update="false" label="High" value="0"/>
+            </choice>
+        </element>
+        <element label="Aadhar Number" max_length="20" name="aadhar_number" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="PAN Number" max_length="10" name="pan_number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Planning" value="4"/>
+                <element inactive_on_update="false" label="High" value="0"/>
+                <element inactive_on_update="false" label="Low" value="2"/>
+                <element inactive_on_update="false" label="Medium" value="1"/>
+                <element inactive_on_update="false" label="Moderate" value="3"/>
+            </choice>
+        </element>
+        <element label="passport" max_length="255" name="passport" type="string_full_utf8"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    // Add your code here&#13;&#10;    if (current.test)&#13;&#10;        return current.test + Math.floor(Math.random() * 900000).toFixed(0);&#13;&#10;    else&#13;&#10;        return Math.floor(Math.random() * 900000).toFixed(0);&#13;&#10;&#13;&#10;&#13;&#10;})(current);" function_definition="glidefunction:concat(&quot;HDFC&quot;,  number)" label="CustomerId" max_length="30" name="customerid" read_only="true" type="string_full_utf8" virtual="true"/>
+        <element choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="0"/>
+                <element inactive_on_update="false" label="Male" value="1"/>
+                <element inactive_on_update="false" label="TransGender" value="2"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var today = new GlideDateTime();&#13;&#10;&#13;&#10;&#13;&#10;    var todayYear = today.getYearLocalTime();&#13;&#10;&#13;&#10;&#13;&#10;    var bday = new GlideDateTime(current.dob.toString());&#13;&#10;&#13;&#10;&#13;&#10;    bdayYear = bday.getYearLocalTime();&#13;&#10;&#13;&#10;&#13;&#10;    var age = todayYear - bdayYear;&#13;&#10;&#9;return age;&#13;&#10;&#13;&#10;})(current);" label="Age" max_length="100" name="age" read_only="true" type="integer" virtual="true"/>
+        <element label="Criminal Case" max_length="40" name="criminal_case" type="boolean"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sc_task" type="reference"/>
+        <element choice="1" label="Salutation" max_length="40" name="salutation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ms" value="3"/>
+                <element inactive_on_update="false" label="Miss" value="2"/>
+                <element inactive_on_update="false" label="Mr" value="1"/>
+            </choice>
+        </element>
+        <element label="Customer Last Name" max_length="10" name="customer_last_name" type="string"/>
+        <element attributes="ref_contributions=user_show_transactions" label="Name" mandatory="true" max_length="32" name="test" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="WorkNotes" max_length="4000" name="u_journal_2" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Urgent" max_length="40" name="urgent" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" value="2"/>
+                <element inactive_on_update="false" label="High" value="0"/>
+                <element inactive_on_update="false" label="Medium" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="test"/>
+        </index>
+    </element>
+</database>
